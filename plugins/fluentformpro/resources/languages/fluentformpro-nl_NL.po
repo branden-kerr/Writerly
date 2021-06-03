@@ -1,0 +1,1582 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FluentForm Pro Add On Pack\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-24 12:06+0000\n"
+"PO-Revision-Date: 2020-08-24 12:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.2; wp-5.5"
+
+#: libs/ff_plugin_updater/ff-fluentform-pro-update.php:41
+msgid "WP Fluent Forms Pro Add On"
+msgstr "WP Fluent Forms Pro Add-on"
+
+#: libs/ff_plugin_updater/ff-fluentform-pro-update.php:43
+msgid "Fluent Forms Pro License"
+msgstr "Fluent Forms Pro-licentie"
+
+#: src/Payments/PaymentHandler.php:82 src/views/receipt/order_items_table.php:4
+msgid "Item"
+msgstr "Item"
+
+#: src/Payments/PaymentHandler.php:83 src/views/receipt/order_items_table.php:6
+msgid "Price"
+msgstr "Prijs"
+
+#: src/Payments/PaymentHandler.php:84
+msgid "Qty"
+msgstr "Aantal"
+
+#: src/Payments/PaymentHandler.php:85 src/views/receipt/order_items_table.php:7
+msgid "Line Total"
+msgstr "Subtotaal"
+
+#: src/Payments/PaymentHandler.php:86
+msgid "Total"
+msgstr ""
+
+#: src/Payments/PaymentHandler.php:87
+msgid "No payment item selected yet"
+msgstr ""
+
+#: src/Payments/PaymentHandler.php:209
+msgid ""
+"Sorry! No selected payment method found. Please select a valid payment method"
+msgstr ""
+"Sorry! Geen geselecteerde betaalmethode gevonden. Selecteer een geldige "
+"betalingsmethode"
+
+#: src/Payments/PaymentHandler.php:238
+msgid "Payment Settings"
+msgstr "Betalingsinstellingen"
+
+#: src/Payments/AjaxEndpoints.php:46
+msgid "Payment Module successfully enabled!"
+msgstr "Betalingsmodule succesvol ingeschakeld!"
+
+#: src/Payments/AjaxEndpoints.php:77
+msgid "Settings successfully updated!"
+msgstr "Instellingen succesvol bijgewerkt!"
+
+#: src/Payments/AjaxEndpoints.php:103
+msgid "Failed to save settings"
+msgstr "Kan instellingen niet opslaan"
+
+#: src/Payments/AjaxEndpoints.php:111
+msgid "Settings successfully updated"
+msgstr "Instellingen succesvol bijgewerkt"
+
+#: src/Payments/AjaxEndpoints.php:133
+msgid "Settings successfully saved"
+msgstr "Instellingen succesvol opgeslagen"
+
+#: src/Payments/PaymentHelper.php:462
+msgid "Burundian Franc"
+msgstr "Burundese frank"
+
+#: src/Payments/PaymentHelper.php:463
+msgid "Chilean Peso"
+msgstr "Chileense peso"
+
+#: src/Payments/PaymentHelper.php:464
+msgid "Djiboutian Franc"
+msgstr "Djiboutiaanse frank"
+
+#: src/Payments/PaymentHelper.php:465
+msgid "Guinean Franc"
+msgstr "Guinese Frank"
+
+#: src/Payments/PaymentHelper.php:466
+msgid "Japanese Yen"
+msgstr "Japanse Yen"
+
+#: src/Payments/PaymentHelper.php:467
+msgid "Comorian Franc"
+msgstr "Comorese frank"
+
+#: src/Payments/PaymentHelper.php:468
+msgid "South Korean Won"
+msgstr "Zuid-Koreaanse won"
+
+#: src/Payments/PaymentHelper.php:469
+msgid "Malagasy Ariary"
+msgstr "Malagasy Ariary"
+
+#: src/Payments/PaymentHelper.php:470
+msgid "Paraguayan Guaraní"
+msgstr "Paraguayaanse Guaraní"
+
+#: src/Payments/PaymentHelper.php:471
+msgid "Rwandan Franc"
+msgstr "Rwandese Frank"
+
+#: src/Payments/PaymentHelper.php:472
+msgid "Vietnamese Dong"
+msgstr "Vietnamese Dong"
+
+#: src/Payments/PaymentHelper.php:473
+msgid "Vanuatu Vatu"
+msgstr "Vanuatu Vatu"
+
+#: src/Payments/PaymentHelper.php:474
+msgid "Central African Cfa Franc"
+msgstr "Centraal-Afrikaanse CFA-frank"
+
+#: src/Payments/PaymentHelper.php:475
+msgid "West African Cfa Franc"
+msgstr "West-Afrikaanse CFA-frank"
+
+#: src/Payments/PaymentHelper.php:476
+msgid "Cfp Franc"
+msgstr "Cfp Franc"
+
+#: src/Payments/PaymentHelper.php:490
+msgid "Paid"
+msgstr "Betaald"
+
+#: src/Payments/PaymentHelper.php:491
+msgid "Processing"
+msgstr "Verwerken"
+
+#: src/Payments/PaymentHelper.php:492
+msgid "Pending"
+msgstr "In afwachting"
+
+#: src/Payments/PaymentHelper.php:493
+msgid "Failed"
+msgstr "Mislukt"
+
+#: src/Payments/PaymentHelper.php:494
+msgid "Refunded"
+msgstr "Terugbetaald"
+
+#: src/Payments/PaymentHelper.php:495
+msgid "Partial Refunded"
+msgstr ""
+
+#: src/classes/StepFormEntries.php:81
+msgid "Partial Entries"
+msgstr ""
+
+#: src/classes/StepFormEntries.php:107
+msgid ""
+"Sorry! No entries found. All your entries will be shown here once you start "
+"getting form submissions"
+msgstr ""
+
+#: src/classes/StepFormEntries.php:381
+msgid "Item Successfully deleted"
+msgstr ""
+
+#: src/classes/AdvancedFormValidation.php:31
+msgid "Form validation has been failed"
+msgstr ""
+
+#: src/classes/EntryEditor.php:28
+msgid "Entry data successfully updated"
+msgstr "Invoer gegevens succesvol bijgewerkt"
+
+#: src/classes/FormStyler.php:129
+msgid "Styles successfully updated"
+msgstr "Stijlen succesvol bijgewerkt"
+
+#: src/Components/NetPromoterScore.php:19
+#: src/Components/NetPromoterScore.php:38
+#: src/Components/NetPromoterScore.php:69
+msgid "Net Promoter Score"
+msgstr "Net Promoter Score"
+
+#: src/Components/NetPromoterScore.php:39
+msgid "Not at all Likely"
+msgstr "Onwaarschijnlijk"
+
+#: src/Components/NetPromoterScore.php:40
+msgid "Extremely Likely"
+msgstr "Zeer waarschijnlijk"
+
+#: src/Components/NetPromoterScore.php:51 src/Components/RepeaterField.php:64
+#: src/Components/RangeSliderField.php:54 src/Components/ColorPicker.php:45
+#: src/Components/PhoneField.php:69
+#: src/Payments/Components/CustomPaymentComponent.php:56
+#: src/Payments/Components/ItemQuantity.php:58
+#: src/Payments/Components/MultiPaymentComponent.php:72
+#: src/Components/ChainedSelect/ChainedSelect.php:68
+#: src/Components/Post/Components/PostTitle.php:46
+#: src/Components/Post/Components/PostContent.php:61
+#: src/Components/Post/Components/PostExcerpt.php:49
+#: src/Components/Post/Components/DynamicTaxonomies.php:52
+#: src/Components/Post/Components/FeaturedImage.php:53
+msgid "This field is required"
+msgstr "Dit veld is verplicht"
+
+#: src/Components/NetPromoterScore.php:56
+msgid "0"
+msgstr "0"
+
+#: src/Components/NetPromoterScore.php:57
+msgid "1"
+msgstr "1"
+
+#: src/Components/NetPromoterScore.php:58
+msgid "2"
+msgstr "2"
+
+#: src/Components/NetPromoterScore.php:59
+msgid "3"
+msgstr "3"
+
+#: src/Components/NetPromoterScore.php:60
+msgid "4"
+msgstr "4"
+
+#: src/Components/NetPromoterScore.php:61
+msgid "5"
+msgstr "5"
+
+#: src/Components/NetPromoterScore.php:62
+msgid "6"
+msgstr "6"
+
+#: src/Components/NetPromoterScore.php:63
+msgid "7"
+msgstr "7"
+
+#: src/Components/NetPromoterScore.php:64
+msgid "8"
+msgstr "8"
+
+#: src/Components/NetPromoterScore.php:65
+msgid "9"
+msgstr "9"
+
+#: src/Components/NetPromoterScore.php:66
+msgid "10"
+msgstr "10"
+
+#: src/Components/RepeaterField.php:42
+msgid "Repeater Field"
+msgstr ""
+
+#: src/Components/RepeaterField.php:59
+msgid "Column 1"
+msgstr ""
+
+#: src/Components/RepeaterField.php:72
+msgid "Repeat Field"
+msgstr ""
+
+#: src/Components/RepeaterField.php:104
+msgid "Repeat Field Columns"
+msgstr ""
+
+#: src/Components/RepeaterField.php:105
+msgid "Field Columns which a user will be able to repeat."
+msgstr ""
+
+#: src/Components/RepeaterField.php:204
+msgid "...."
+msgstr ""
+
+#: src/Components/Uploader.php:35
+#: src/Components/Post/Components/FeaturedImage.php:112
+msgid "Choose File"
+msgstr "Kies bestand"
+
+#: src/Components/ColorPicker.php:33
+msgid "Choose Color"
+msgstr "Kies kleur"
+
+#: src/Components/ColorPicker.php:133
+msgid "Save"
+msgstr "Opslaan"
+
+#: src/Components/ColorPicker.php:134
+msgid "Clear"
+msgstr "Leegmaken"
+
+#: src/Components/ColorPicker.php:135
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: src/Components/PhoneField.php:49
+msgid "Mobile Number"
+msgstr "Mobiel nummer"
+
+#: src/Components/PhoneField.php:73
+msgid "Phone number is not valid"
+msgstr "Telefoonnummer is niet geldig"
+
+#: libs/ff_plugin_updater/updater/FluentFormAddOnChecker.php:167
+#, php-format
+msgid "Thank you for purchasing %s!  Please enter your license key below."
+msgstr "Bedankt voor het kopen van %s! Voer hieronder uw licentiesleutel in."
+
+#: libs/ff_plugin_updater/updater/FluentFormAddOnChecker.php:229
+msgid "Sorry! You do not have permission to activate this license."
+msgstr "Sorry! U heeft geen toestemming om deze licentie te activeren."
+
+#: libs/ff_plugin_updater/updater/FluentFormAddOnChecker.php:354
+msgid "Sorry! You do not have permission to deactivate this license."
+msgstr "Sorry! U heeft geen toestemming om deze licentie te deactiveren."
+
+#: libs/ff_plugin_updater/updater/FluentFormAddOnChecker.php:388
+msgid ""
+"There was an error deactivating the license, please try again or contact "
+"support."
+msgstr ""
+"Er is een fout opgetreden bij het deactiveren van de licentie. Probeer het "
+"opnieuw of neem contact op met ondersteuning."
+
+#: libs/ff_plugin_updater/updater/FluentFormAddOnChecker.php:405
+msgid "License deactivated"
+msgstr "Licentie gedeactiveerd"
+
+#: libs/ff_plugin_updater/updater/FluentFormAddOnChecker.php:414
+msgid "Unable to deactivate license, please try again or contact support."
+msgstr ""
+"Kan licentie niet deactiveren. Probeer het opnieuw of neem contact op met "
+"ondersteuning."
+
+#: src/Payments/Classes/PaymentReceipt.php:61
+#: src/Payments/Classes/PaymentReceipt.php:131
+#: src/Payments/PaymentMethods/Offline/OfflineHandler.php:73
+msgid "Offline"
+msgstr ""
+
+#: src/Payments/Classes/PaymentReceipt.php:82
+msgid "Invalid submission. No receipt found"
+msgstr "Ongeldige inzending. Geen bon gevonden"
+
+#: src/Payments/Classes/PaymentReceipt.php:90
+msgid "Order Details"
+msgstr "Order details"
+
+#: src/Payments/PaymentMethods/BaseProcessor.php:339
+msgid "Payment Success"
+msgstr "Betaling geslaagd"
+
+#: src/Payments/PaymentMethods/BaseProcessor.php:341
+msgid "Payment Failed"
+msgstr "Betaling mislukt"
+
+#: src/Payments/Components/CustomPaymentComponent.php:46
+#: src/Payments/Components/CustomPaymentComponent.php:78
+msgid "Custom Payment Amount"
+msgstr "Aangepast betalingsbedrag"
+
+#: src/Payments/Components/CustomPaymentComponent.php:60
+#: src/Payments/Components/ItemQuantity.php:62
+msgid "This field must contain numeric value"
+msgstr "Dit veld moet een numerieke waarde bevatten"
+
+#: src/Payments/Components/CustomPaymentComponent.php:64
+#: src/Payments/Components/ItemQuantity.php:66
+msgid "Minimum value is "
+msgstr "Minimumwaarde is"
+
+#: src/Payments/Components/CustomPaymentComponent.php:68
+#: src/Payments/Components/ItemQuantity.php:70
+msgid "Maximum value is "
+msgstr "Maximum waarde is"
+
+#: src/Payments/Components/ItemQuantity.php:47
+#: src/views/receipt/order_items_table.php:5
+msgid "Quantity"
+msgstr "Aantal stuks"
+
+#: src/Payments/Components/ItemQuantity.php:76
+msgid "Item Quantity"
+msgstr "Item Hoeveelheid"
+
+#: src/Payments/Components/ItemQuantity.php:116
+msgid "Product Field Mapping"
+msgstr "Productveldtoewijzing"
+
+#: src/Payments/Components/ItemQuantity.php:117
+msgid "Select which Product this field is tied to"
+msgstr "Selecteer aan welk product dit veld is gekoppeld"
+
+#: src/Payments/Components/MultiPaymentComponent.php:51
+msgid "Payment Item"
+msgstr "Betalingsitem"
+
+#: src/Payments/Components/MultiPaymentComponent.php:64
+msgid "Price:"
+msgstr "Prijs:"
+
+#: src/Payments/Components/MultiPaymentComponent.php:78
+msgid "Payment Field"
+msgstr "Betalingsveld"
+
+#: src/Payments/Components/PaymentSummaryComponent.php:64
+msgid "Payment Summary"
+msgstr ""
+
+#: src/Payments/Components/PaymentMethods.php:97
+msgid "Payment Methods"
+msgstr "Betaalmethodes"
+
+#: src/Payments/Components/PaymentMethods.php:98
+msgid ""
+"Please Select and Configure the payment methods for this form, At least 1 "
+"method is required. If you select only one it will not show on the form for "
+"selection but will process that payment with the selected method."
+msgstr ""
+"Selecteer en configureer de betalingsmethoden voor dit formulier, er is "
+"minimaal 1 methode vereist. Als u er slechts één selecteert, wordt deze niet "
+"weergegeven op het formulier voor selectie, maar wordt die betaling verwerkt "
+"met de geselecteerde methode."
+
+#: src/Payments/Components/PaymentMethods.php:138
+msgid ""
+"No activated payment method found. If you are an admin please check the "
+"payment settings"
+msgstr ""
+"Geen geactiveerde betaalmethode gevonden. Als u een beheerder bent, "
+"controleer dan de betalingsinstellingen"
+
+#: src/classes/SharePage/SharePage.php:36
+msgid "Landing Page"
+msgstr "Bestemmingspagina"
+
+#: src/Integrations/WebHook/Client.php:60
+msgid "Feed successfully updated"
+msgstr "Feed succesvol bijgewerkt"
+
+#: src/Integrations/WebHook/Client.php:63
+msgid "Feed successfully created"
+msgstr "Feed is gemaakt"
+
+#: src/Integrations/WebHook/Client.php:81
+msgid "Selected WebHook Feed is deleted"
+msgstr "De geselecteerde WebHook-feed is verwijderd"
+
+#: src/Integrations/WebHook/Client.php:98
+msgid "Feed Name is required"
+msgstr "Feednaam is vereist"
+
+#: src/Integrations/WebHook/Client.php:99
+msgid "Request URL is required"
+msgstr "Verzoek-URL is vereist"
+
+#: src/Integrations/WebHook/Client.php:100
+msgid "Request URL format is invalid"
+msgstr "Verzoek-URL formattering is ongeldig"
+
+#: src/Integrations/WebHook/Client.php:101
+msgid "Request body is required"
+msgstr "Verzoektekst is vereist"
+
+#: src/Integrations/WebHook/Client.php:107
+msgid "Field name is required"
+msgstr "Veldnaam is verplicht"
+
+#: src/Integrations/WebHook/Client.php:111
+msgid "Header name is required"
+msgstr "Koptekstnaam is vereist"
+
+#: src/Integrations/WebHook/Client.php:117
+msgid "Please fix the errors"
+msgstr "Los de fouten op"
+
+#: src/Integrations/Drip/Bootstrap.php:40
+msgid "Drip API Settings"
+msgstr "Drip API-instellingen"
+
+#: src/Integrations/Drip/Bootstrap.php:41
+msgid ""
+"Drip is an ECRM and Ecommerce CRM designed for building personal and "
+"profitable relationships with your customers at scale. Use Fluent Form to "
+"collect customer information and automatically add it to your Drip list."
+msgstr ""
+"Drip is een ECRM- en e-commerce CRM dat is ontworpen om op grote schaal "
+"persoonlijke en winstgevende relaties met uw klanten op te bouwen. Gebruik "
+"Fluent Form om klantgegevens te verzamelen en deze automatisch toe te voegen "
+"aan uw Drip-lijst."
+
+#: src/Integrations/Drip/Bootstrap.php:42
+msgid "Your Drip configuration is valid"
+msgstr "Uw Drip-configuratie is geldig"
+
+#: src/Integrations/Drip/Bootstrap.php:43
+msgid "Your Drip configuration is invalid"
+msgstr "Uw Drip-configuratie is ongeldig"
+
+#: src/Integrations/Drip/Bootstrap.php:49
+msgid ""
+"Enter your Drip API Key, if you do not have <br>Please login to your Drip "
+"account settings -> User Info and find the api key"
+msgstr ""
+"Voer uw Drip API-sleutel in, als u die niet heeft <br> Meld u aan bij uw "
+"Drip-accountinstellingen -> Gebruikersinfo en zoek de API-sleutel"
+
+#: src/Integrations/Drip/Bootstrap.php:50
+msgid "Drip API Token"
+msgstr "Druppel API-token"
+
+#: src/Integrations/Drip/Bootstrap.php:56
+msgid "Please Provide your Drip project id"
+msgstr "Geef uw Drip-project-ID op"
+
+#: src/Integrations/Drip/Bootstrap.php:57
+msgid "Drip project id"
+msgstr "Drip project id"
+
+#: src/Integrations/Drip/Bootstrap.php:100
+#: src/Integrations/GetResponse/Bootstrap.php:56
+#: src/Integrations/ActiveCampaign/Bootstrap.php:96
+#: src/Integrations/Sendinblue/Bootstrap.php:89
+#: src/Integrations/CampaignMonitor/Bootstrap.php:102
+#: src/Integrations/Trello/Bootstrap.php:125
+#: src/Integrations/Aweber/Bootstrap.php:97
+msgid "Your settings has been updated and discarted"
+msgstr "Uw instellingen zijn bijgewerkt en verwijderd"
+
+#: src/Integrations/Drip/Bootstrap.php:116
+#: src/Integrations/GetResponse/Bootstrap.php:76
+#: src/Integrations/ActiveCampaign/Bootstrap.php:111
+#: src/Integrations/ConstantContact/Bootstrap.php:110
+#: src/Integrations/Sendinblue/Bootstrap.php:104
+#: src/Integrations/Platformly/Bootstrap.php:113
+#: src/Integrations/Trello/Bootstrap.php:140
+#: src/Integrations/Aweber/Bootstrap.php:118
+msgid "Your settings has been updated!"
+msgstr "Uw instellingen zijn bijgewerkt!"
+
+#: src/Integrations/Drip/Bootstrap.php:211
+#: src/Integrations/ActiveCampaign/Bootstrap.php:199
+#: src/Integrations/Sendinblue/Bootstrap.php:193
+#: src/Integrations/Platformly/Bootstrap.php:203
+#: src/Integrations/IContact/Bootstrap.php:231
+#: src/Integrations/Aweber/Bootstrap.php:226
+msgid "First Name"
+msgstr "Voornaam"
+
+#: src/Integrations/Drip/Bootstrap.php:216
+#: src/Integrations/ActiveCampaign/Bootstrap.php:204
+#: src/Integrations/Sendinblue/Bootstrap.php:198
+#: src/Integrations/Platformly/Bootstrap.php:208
+#: src/Integrations/IContact/Bootstrap.php:235
+#: src/Integrations/Aweber/Bootstrap.php:231
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: src/Integrations/SendFox/Bootstrap.php:39
+msgid "SendFox API Settings"
+msgstr "SendFox API-instellingen"
+
+#: src/Integrations/SendFox/Bootstrap.php:40
+msgid ""
+"SendFox is email marketing software. Use Fluent Form to collect customer "
+"information and automatically add it as SendFox subscriber list."
+msgstr ""
+"SendFox is software voor e-mailmarketing. Gebruik Fluent Form om "
+"klantgegevens te verzamelen en deze automatisch toe te voegen als SendFox-"
+"abonneelijst."
+
+#: src/Integrations/SendFox/Bootstrap.php:41
+msgid "Your SendFox API Key is valid"
+msgstr "Uw SendFox API-sleutel is geldig"
+
+#: src/Integrations/SendFox/Bootstrap.php:42
+msgid "Your SendFox API Key is not valid"
+msgstr "Je SendFox API-sleutel is niet geldig"
+
+#: src/Integrations/SendFox/Bootstrap.php:48
+msgid ""
+"Enter your SendFox API Key, if you do not have <br>Please login to your "
+"Sendfox account and go to<br>Account -> Appi Key"
+msgstr ""
+"Voer uw SendFox API-sleutel in, als u geen <br> hebt. Log in op uw Sendfox-"
+"account en ga naar <br> Account -> Appi Key"
+
+#: src/Integrations/SendFox/Bootstrap.php:49
+msgid "SendFox API Key"
+msgstr "SendFox API-sleutel"
+
+#: src/Integrations/SendFox/Bootstrap.php:92
+#: src/Integrations/MailerLite/Bootstrap.php:87
+#: src/Integrations/ConvertKit/Bootstrap.php:96
+#: src/Integrations/Automizy/Bootstrap.php:92
+#: src/Integrations/ConstantContact/Bootstrap.php:93
+#: src/Integrations/SMSNotification/Bootstrap.php:105
+#: src/Integrations/GetGist/Bootstrap.php:88
+#: src/Integrations/CampaignMonitor/Bootstrap.php:113
+#: src/Integrations/GoogleSheet/Bootstrap.php:96
+#: src/Integrations/MooSend/Bootstrap.php:87
+msgid "Your settings has been updated"
+msgstr "Je instellingen zijn bijgewerkt"
+
+#: src/Integrations/SendFox/Bootstrap.php:122
+msgid "Your SendFox api key has been verified and successfully set"
+msgstr ""
+
+#: src/Integrations/MailerLite/Bootstrap.php:38
+msgid "MailerLite Settings"
+msgstr "MailerLite-instellingen"
+
+#: src/Integrations/MailerLite/Bootstrap.php:40
+msgid "Your MailerLite API Key is valid"
+msgstr "Uw MailerLite API-sleutel is geldig"
+
+#: src/Integrations/MailerLite/Bootstrap.php:41
+msgid "Your MailerLite API Key is not valid"
+msgstr "Uw MailerLite API-sleutel is niet geldig"
+
+#: src/Integrations/MailerLite/Bootstrap.php:42
+#: src/Integrations/GetResponse/Bootstrap.php:99
+#: src/Integrations/SMSNotification/Bootstrap.php:43
+#: src/Integrations/Hubspot/Bootstrap.php:43
+#: src/Integrations/GetGist/Bootstrap.php:43
+#: src/Integrations/IContact/Bootstrap.php:43
+msgid "Save Settings"
+msgstr "Instellingen opslaan"
+
+#: src/Integrations/MailerLite/Bootstrap.php:47
+msgid ""
+"Enter your MailerLite API Key, if you do not have <br>Please login to your "
+"MailerLite account and go to<br>Profile -> Account Settings -> Account Info"
+msgstr ""
+"Voer uw MailerLite API-sleutel in, als u niet beschikt over <br> Meld u aan "
+"bij uw MailerLite-account en ga naar <br> Profiel -> Accountinstellingen -> "
+"Accountinfo"
+
+#: src/Integrations/MailerLite/Bootstrap.php:48
+msgid "MailerLite API Key"
+msgstr "MailerLite API-sleutel"
+
+#: src/Integrations/MailerLite/Bootstrap.php:122
+msgid "Your MailerLite api key has been verified and successfully set"
+msgstr ""
+
+#: src/Integrations/GetResponse/Bootstrap.php:95
+msgid "GetResponse API Settings"
+msgstr "GetResponse API-instellingen"
+
+#: src/Integrations/GetResponse/Bootstrap.php:96
+msgid ""
+"GetResponse is an email marketing platform. It enables you to send email "
+"newsletters, campaigns, online surveys and follow-up autoresponders. Simple, "
+"easy interface. Use Fluent Form to collect customer information and "
+"automatically add it to your GetResponse list. If you don't have a "
+"GetResponse account, you can <a href=\"https://www.getresponse.com/\" "
+"target=\"_blank\">sign up for one here.</a>"
+msgstr ""
+"GetResponse is een e-mailmarketingplatform. Hiermee kunt u e-"
+"mailnieuwsbrieven, campagnes, online enquêtes en vervolgautoresponders "
+"verzenden. Eenvoudige, gemakkelijke interface. Gebruik Fluent Form om "
+"klantgegevens te verzamelen en deze automatisch toe te voegen aan uw "
+"GetResponse-lijst. Als je geen GetResponse-account hebt, kun je je hier <a "
+"href=\"https://www.getresponse.com/\" target=\"_blank\">aanmelden.</a>"
+
+#: src/Integrations/GetResponse/Bootstrap.php:97
+msgid "Your GetResponse configuration is valid"
+msgstr "Uw GetResponse-configuratie is geldig"
+
+#: src/Integrations/GetResponse/Bootstrap.php:98
+msgid "Your GetResponse configuration is invalid"
+msgstr "Uw GetResponse-configuratie is ongeldig"
+
+#: src/Integrations/GetResponse/Bootstrap.php:104
+msgid ""
+"Enter your GetResponse API Key, if you do not have<br />Please login to your "
+"GetResponse account and go to<br />Integrations & API from main menu."
+msgstr ""
+"Voer uw GetResponse API-sleutel in, als u die niet heeft <br /> Log in op uw "
+"GetResponse-account en ga naar <br /> Integraties en API vanuit het "
+"hoofdmenu."
+
+#: src/Integrations/GetResponse/Bootstrap.php:105
+msgid "GetResponse API Key"
+msgstr "GetResponse API-sleutel"
+
+#: src/Integrations/ActiveCampaign/Bootstrap.php:39
+msgid "ActiveCampaign API Settings"
+msgstr "ActiveCampaign API-instellingen"
+
+#: src/Integrations/ActiveCampaign/Bootstrap.php:40
+msgid ""
+"ActiveCampaign is an integrated email marketing, marketing automation, and "
+"small business CRM. Save time while growing your business with sales "
+"automation. Use Fluent Form to collect customer information and "
+"automatically add it to your ActiveCampaign list. If you don't have an "
+"ActiveCampaign account, you can <a href=\"https://www.activecampaign.com/\" "
+"target=\"_blank\">sign up for one here.</a>"
+msgstr ""
+"ActiveCampaign is een geïntegreerde e-mailmarketing, marketingautomatisering "
+"en CRM voor kleine bedrijven. Bespaar tijd terwijl u uw bedrijf laat groeien "
+"met verkoopautomatisering. Gebruik Fluent Form om klantgegevens te "
+"verzamelen en deze automatisch toe te voegen aan uw ActiveCampaign-lijst. "
+"Als u geen ActiveCampaign-account heeft, kunt u <a href=\"https://www."
+"activecampaign.com/\" target=\"_blank\">zich hier hier aanmelden.</a>"
+
+#: src/Integrations/ActiveCampaign/Bootstrap.php:41
+msgid "Your ActiveCampaign configuration is valid"
+msgstr "Uw ActiveCampaign-configuratie is geldig"
+
+#: src/Integrations/ActiveCampaign/Bootstrap.php:42
+msgid "Your ActiveCampaign configuration is invalid"
+msgstr "Uw ActiveCampaign-configuratie is ongeldig"
+
+#: src/Integrations/ActiveCampaign/Bootstrap.php:48
+msgid "Please Provide your ActiveCampaign API URL"
+msgstr "Geef uw ActiveCampaign API-URL op"
+
+#: src/Integrations/ActiveCampaign/Bootstrap.php:49
+msgid "ActiveCampaign API URL"
+msgstr "ActiveCampaign API-URL"
+
+#: src/Integrations/ActiveCampaign/Bootstrap.php:54
+msgid ""
+"Enter your ActiveCampaign API Key, if you do not have <br>Please login to "
+"your ActiveCampaign account and find the api key"
+msgstr ""
+"Voer uw ActiveCampaign API-sleutel in, als u die niet heeft <br> Meld u aan "
+"bij uw ActiveCampaign-account en zoek de API-sleutel"
+
+#: src/Integrations/ActiveCampaign/Bootstrap.php:55
+msgid "ActiveCampaign API Key"
+msgstr "ActiveCampaign API-sleutel"
+
+#: src/Integrations/ActiveCampaign/Bootstrap.php:209
+#: src/Integrations/Platformly/Bootstrap.php:213
+#: src/Integrations/IContact/Bootstrap.php:263
+#: src/Integrations/Aweber/Bootstrap.php:236
+msgid "Phone Number"
+msgstr "Telefoonnummer"
+
+#: src/Integrations/ActiveCampaign/Bootstrap.php:214
+msgid "Organization Name"
+msgstr "Organisatie naam"
+
+#: src/Integrations/ConvertKit/Bootstrap.php:39
+msgid "ConvertKit Settings"
+msgstr "ConvertKit-instellingen"
+
+#: src/Integrations/ConvertKit/Bootstrap.php:40
+msgid ""
+"ConvertKit is email marketing software for creators. Use Fluent Form to "
+"collect customer information and automatically add it as ConvertKit "
+"subscriber list."
+msgstr ""
+"ConvertKit is e-mailmarketingsoftware voor makers. Gebruik Fluent Form om "
+"klantgegevens te verzamelen en deze automatisch toe te voegen als ConvertKit-"
+"abonneelijst."
+
+#: src/Integrations/ConvertKit/Bootstrap.php:41
+msgid "Your ConvertKit API Key is valid"
+msgstr "Uw ConvertKit API-sleutel is geldig"
+
+#: src/Integrations/ConvertKit/Bootstrap.php:42
+msgid "Your ConvertKit API Key is not valid"
+msgstr "Uw ConvertKit API-sleutel is niet geldig"
+
+#: src/Integrations/ConvertKit/Bootstrap.php:48
+msgid ""
+"Enter your ConvertKit API Key, if you do not have <br>Please login to your "
+"ConvertKit account and go to<br>Profile -> Account Settings -> Account Info"
+msgstr ""
+"Voer uw ConvertKit API-sleutel in, als u niet beschikt over <br> Log in op "
+"uw ConvertKit-account en ga naar <br> Profiel -> Accountinstellingen -> "
+"Accountinfo"
+
+#: src/Integrations/ConvertKit/Bootstrap.php:49
+msgid "ConvertKit API Key"
+msgstr "ConvertKit API-sleutel"
+
+#: src/Integrations/ConvertKit/Bootstrap.php:54
+msgid ""
+"Enter your ConvertKit API Secret, if you do not have <br>Please login to "
+"your ConvertKit account and go to<br>Profile -> Account Settings -> Account "
+"Info"
+msgstr ""
+"Voer uw ConvertKit API-geheim in, als u geen <br> hebt. Log in op uw "
+"ConvertKit-account en ga naar <br> Profiel -> Accountinstellingen -> "
+"Accountinfo"
+
+#: src/Integrations/ConvertKit/Bootstrap.php:55
+msgid "ConvertKit API Secret"
+msgstr "ConvertKit API Geheim"
+
+#: src/Integrations/ConvertKit/Bootstrap.php:134
+msgid "Your ConvertKit api key has been verified and successfully set"
+msgstr ""
+
+#: src/Integrations/Automizy/Bootstrap.php:39
+msgid "Automizy API Settings"
+msgstr ""
+
+#: src/Integrations/Automizy/Bootstrap.php:40
+msgid ""
+"Automizy is email marketing software. Use Fluent Form to collect customer "
+"information and automatically add it as Automizy subscriber list. <a "
+"target=\"_blank\" rel=\"nofollow\" href=\"https://app.automizy.com/api-"
+"token\">Get API Token</a>"
+msgstr ""
+
+#: src/Integrations/Automizy/Bootstrap.php:41
+msgid "Your Automizy API Key is valid"
+msgstr ""
+
+#: src/Integrations/Automizy/Bootstrap.php:42
+msgid "Your Automizy API Key is not valid"
+msgstr ""
+
+#: src/Integrations/Automizy/Bootstrap.php:48
+msgid ""
+"Enter your Automizy API Key, if you do not have <br>Please login to your "
+"Automizy account and go to<br>Account -> Settings -> Api Token"
+msgstr ""
+
+#: src/Integrations/Automizy/Bootstrap.php:49
+msgid "Automizy API Token"
+msgstr ""
+
+#: src/Integrations/Automizy/Bootstrap.php:122
+msgid "Your Automizy api key has been verified and successfully set"
+msgstr ""
+
+#: src/Integrations/ConstantContact/Bootstrap.php:39
+msgid "Constant Contact API Settings"
+msgstr "Constant Contact API-instellingen"
+
+#: src/Integrations/ConstantContact/Bootstrap.php:40
+msgid ""
+"Constant Contact is an integrated email marketing, marketing automation, and "
+"small business CRM. Save time while growing your business with sales "
+"automation. Use Fluent Form to collect customer information and "
+"automatically add it to your Constant Contact list. If you don't have an "
+"Constant Contact account, you can <a href=\"https://www.trello.com/\" "
+"target=\"_blank\">sign up for one here.</a>"
+msgstr ""
+"Constant Contact is een geïntegreerde e-mailmarketing, "
+"marketingautomatisering en CRM voor kleine bedrijven. Bespaar tijd terwijl u "
+"uw bedrijf laat groeien met verkoopautomatisering. Gebruik Fluent Form om "
+"klantgegevens te verzamelen en deze automatisch toe te voegen aan uw lijst "
+"met constante contactpersonen. Als u geen Constant Contact-account heeft, "
+"kunt u <a href=\"https://www.constantcontact.com/\" target=\"_blank\">zich "
+"hier aanmelden.</a>"
+
+#: src/Integrations/ConstantContact/Bootstrap.php:41
+msgid "Your Constant Contact configuration is valid"
+msgstr "Uw Constant Contact-configuratie is geldig"
+
+#: src/Integrations/ConstantContact/Bootstrap.php:42
+msgid "Your Constant Contact configuration is invalid"
+msgstr "Uw Constant Contact-configuratie is ongeldig"
+
+#: src/Integrations/ConstantContact/Bootstrap.php:49
+msgid ""
+"Enter your Constant Contact access token Key, if you do not have <br>Please "
+"click here to get yours"
+msgstr ""
+"Voer uw Constant Contact-toegangstoken sleutel in, als u deze niet hebt <br> "
+"Klik hier om de uwe te verkrijgen"
+
+#: src/Integrations/ConstantContact/Bootstrap.php:50
+msgid "Constant Contact access Key"
+msgstr " Constant Contact toegangssleutel"
+
+#: src/Integrations/Sendinblue/Bootstrap.php:38
+msgid "Sendinblue API Settings"
+msgstr "Sendinblue API-instellingen"
+
+#: src/Integrations/Sendinblue/Bootstrap.php:39
+msgid ""
+"Sendinblue is an integrated email marketing, marketing automation, and small "
+"business CRM. Save time while growing your business with sales automation. "
+"Use Fluent Form to collect customer information and automatically add it to "
+"your Sendinblue list. If you don't have an Sendinblue account, you can <a "
+"href=\"https://www.sendinblue.com//\" target=\"_blank\">sign up for one here."
+"</a>"
+msgstr ""
+"Sendinblue is een geïntegreerde e-mailmarketing, marketingautomatisering en "
+"CRM voor kleine bedrijven. Bespaar tijd terwijl u uw bedrijf laat groeien "
+"met verkoopautomatisering. Gebruik Fluent Form om klantgegevens te "
+"verzamelen en deze automatisch toe te voegen aan uw Sendinblue-lijst. Als je "
+"nog geen Sendinblue-account hebt, kun je je hier <a href=\"https://www."
+"sendinblue.com//\" target=\"_blank\">aanmelden.</a>"
+
+#: src/Integrations/Sendinblue/Bootstrap.php:40
+msgid "Your Sendinblue configuration is valid"
+msgstr "Uw Sendinblue-configuratie is geldig"
+
+#: src/Integrations/Sendinblue/Bootstrap.php:41
+msgid "Your Sendinblue configuration is invalid"
+msgstr "Uw Sendinblue-configuratie is ongeldig"
+
+#: src/Integrations/Sendinblue/Bootstrap.php:47
+msgid ""
+"Enter your Sendinblue API Key, if you do not have <br>Please login to your "
+"Sendinblue account and find the api key"
+msgstr ""
+"Voer uw Sendinblue API-sleutel in, als u geen <br> hebt. Log in op uw "
+"Sendinblue-account en zoek de API-sleutel"
+
+#: src/Integrations/Sendinblue/Bootstrap.php:48
+msgid "Sendinblue V3 API Key"
+msgstr "Sendinblue V3 API-sleutel"
+
+#: src/Integrations/SMSNotification/Bootstrap.php:39
+msgid "SMS Provider Settings (Twillio)"
+msgstr "Instellingen SMS-provider (Twillio)"
+
+#: src/Integrations/SMSNotification/Bootstrap.php:40
+msgid "Please Provide your Twillio Settings here"
+msgstr "Geef hier uw Twillio-instellingen op"
+
+#: src/Integrations/SMSNotification/Bootstrap.php:41
+msgid "Your Twillio API Key is valid"
+msgstr "Uw Twillio API-sleutel is geldig"
+
+#: src/Integrations/SMSNotification/Bootstrap.php:42
+msgid "Your Twillio API Key is not valid"
+msgstr "Uw Twillio API-sleutel is niet geldig"
+
+#: src/Integrations/SMSNotification/Bootstrap.php:48
+msgid "Enter your twillo sender number"
+msgstr "Voer uw twillo-afzendernummer in"
+
+#: src/Integrations/SMSNotification/Bootstrap.php:49
+msgid "Number From"
+msgstr "Nummer van"
+
+#: src/Integrations/SMSNotification/Bootstrap.php:54
+msgid "Enter Twillio Account SID. This can be found from twillio"
+msgstr "Voer Twillio Account SID in. Dit is te vinden bij twillio"
+
+#: src/Integrations/SMSNotification/Bootstrap.php:55
+msgid "Account SID"
+msgstr "Account SID"
+
+#: src/Integrations/SMSNotification/Bootstrap.php:60
+msgid "Enter Twillio API Auth Token. This can be found from twillio"
+msgstr "Voer Twillio API Auth Token in. Dit is te vinden bij twillio"
+
+#: src/Integrations/SMSNotification/Bootstrap.php:61
+msgid "Auth Token"
+msgstr "Auth-token"
+
+#: src/Integrations/SMSNotification/Bootstrap.php:147
+msgid "Your Twillio api key has been verified and successfully set"
+msgstr ""
+
+#: src/Integrations/Hubspot/Bootstrap.php:39
+msgid "Hubspot API Settings"
+msgstr "Hubspot API-instellingen"
+
+#: src/Integrations/Hubspot/Bootstrap.php:40
+msgid ""
+"Hubspot is a CRM software. Use Fluent Form to collect customer information "
+"and automatically add it as Hubspot subscriber list."
+msgstr ""
+"Hubspot is een CRM-software. Gebruik Fluent Form om klantgegevens te "
+"verzamelen en deze automatisch toe te voegen als Hubspot-abonneelijst."
+
+#: src/Integrations/Hubspot/Bootstrap.php:41
+msgid "Your Hubspot API Key is valid"
+msgstr "Uw Hubspot API-sleutel is geldig"
+
+#: src/Integrations/Hubspot/Bootstrap.php:42
+msgid "Your Hubspot API Key is not valid"
+msgstr "Uw Hubspot API-sleutel is niet geldig"
+
+#: src/Integrations/Hubspot/Bootstrap.php:48
+msgid ""
+"Enter your Hubspot API Key, if you do not have <br>Please login to your "
+"Hubspot account and go to<br>Profile -> Account Settings -> Account Info"
+msgstr ""
+"Voer uw Hubspot API-sleutel in, als u geen <br> hebt. Log in op uw Hubspot-"
+"account en ga naar <br> Profiel -> Accountinstellingen -> Accountinfo"
+
+#: src/Integrations/Hubspot/Bootstrap.php:49
+msgid "Hubspot API Key"
+msgstr "Hubspot API-sleutel"
+
+#: src/Integrations/Hubspot/Bootstrap.php:87
+#: src/Integrations/Platformly/Bootstrap.php:98
+msgid "Your settings has been updated and discarded"
+msgstr "Uw instellingen zijn bijgewerkt en verwijderd"
+
+#: src/Integrations/Hubspot/Bootstrap.php:128
+msgid "Your HubSport api key has been verified and successfully set"
+msgstr ""
+
+#: src/Integrations/Platformly/Bootstrap.php:38
+msgid "Platformly API Settings"
+msgstr "Platformly API-instellingen"
+
+#: src/Integrations/Platformly/Bootstrap.php:39
+msgid ""
+"Platformly is an integrated email marketing, marketing automation, and small "
+"business CRM. Save time while growing your business with sales automation. "
+"Use Fluent Form to collect customer information and automatically add it to "
+"your Platformly list. If you don't have an Platformly account, you can <a "
+"href=\"https://www.platform.ly/\" target=\"_blank\">sign up for one here.</a>"
+msgstr ""
+"Platformly is een geïntegreerde e-mailmarketing, marketingautomatisering en "
+"CRM voor kleine bedrijven. Bespaar tijd terwijl u uw bedrijf laat groeien "
+"met verkoopautomatisering. Gebruik Fluent Form om klantgegevens te "
+"verzamelen en deze automatisch toe te voegen aan uw Platformly-lijst. Als je "
+"geen Platformly-account hebt, kun je je hier <a href=\"https://www.platform."
+"ly/\" target=\"_blank\">aanmelden.</a>"
+
+#: src/Integrations/Platformly/Bootstrap.php:40
+msgid "Your Platformly configuration is valid"
+msgstr "Uw Platformly-configuratie is geldig"
+
+#: src/Integrations/Platformly/Bootstrap.php:41
+msgid "Your Platformly configuration is invalid"
+msgstr "Uw Platformly-configuratie is ongeldig"
+
+#: src/Integrations/Platformly/Bootstrap.php:47
+msgid ""
+"Enter your Platformly API Key, if you do not have <br>Please login to your "
+"Platformly account and find the api key"
+msgstr ""
+"Voer uw Platformly API-sleutel in als u geen <br> hebt. Meld u aan bij uw "
+"Platformly-account en zoek de API-sleutel"
+
+#: src/Integrations/Platformly/Bootstrap.php:48
+msgid "Platformly API Key"
+msgstr "Platformly API-sleutel"
+
+#: src/Integrations/Platformly/Bootstrap.php:54
+msgid "Please Provide your Platformly project id"
+msgstr "Geef uw Platformly-project-ID op"
+
+#: src/Integrations/Platformly/Bootstrap.php:55
+msgid "Platformly project id"
+msgstr "Platformly project-id"
+
+#: src/Integrations/UserRegistration/Bootstrap.php:241
+msgid "This email is already registered. Please choose another one."
+msgstr ""
+
+#: src/Integrations/UserRegistration/Bootstrap.php:252
+msgid "This username is already registered. Please choose another one."
+msgstr ""
+
+#: src/Integrations/GetGist/Bootstrap.php:39
+msgid "GetGist Settings"
+msgstr "GetGist-instellingen"
+
+#: src/Integrations/GetGist/Bootstrap.php:41
+msgid "Your GetGist API Key is valid"
+msgstr "Uw GetGist API-sleutel is geldig"
+
+#: src/Integrations/GetGist/Bootstrap.php:42
+msgid "Your GetGist API Key is not valid"
+msgstr "Uw GetGist API-sleutel is niet geldig"
+
+#: src/Integrations/GetGist/Bootstrap.php:48
+msgid ""
+"Enter your GetGist API Key, if you do not have <br>Please login to your "
+"GetGist account and go to<br>Settings -> Integrations -> API key"
+msgstr ""
+"Voer uw GetGist API-sleutel in, als u geen <br> hebt. Meld u aan bij uw "
+"GetGist-account en ga naar <br> Instellingen -> Integraties -> API-sleutel"
+
+#: src/Integrations/GetGist/Bootstrap.php:49
+msgid "GetGist API Key"
+msgstr "GetGist API-sleutel"
+
+#: src/Integrations/GetGist/Bootstrap.php:124
+msgid "Your GetGist api key has been verified and successfully set"
+msgstr ""
+
+#: src/Integrations/IContact/Bootstrap.php:39
+msgid "iContact API Settings"
+msgstr "iContact API-instellingen"
+
+#: src/Integrations/IContact/Bootstrap.php:40
+msgid ""
+"iContact is an email marketing platform to send email newsletters to your "
+"customers, manage your<br />subscriber lists, and track campaign performance."
+" Use Fluent Form to collect customer information<br />and automatically add "
+"it to your iContact list. If you don't have an iContact account,<br />you "
+"can <a href=\"https://www.icontact.com/\" target=\"_blank\">sign up for one "
+"here.</a>"
+msgstr ""
+"iContact is een e-mailmarketingplatform om e-mailnieuwsbrieven naar uw "
+"klanten te sturen, uw te beheren <br /> abonneelijsten en houd de "
+"campagneprestaties bij. Gebruik Fluent Form om klantgegevens te verzamelen "
+"<br /> en voeg het automatisch toe aan uw iContact-lijst. Als u geen "
+"iContact-account heeft, <br /> u kunt <a href=\"https://www.icontact.com/\" "
+"target=\"_blank\">zich hier aanmelden.</a>"
+
+#: src/Integrations/IContact/Bootstrap.php:41
+msgid "Your iContact configuration is valid"
+msgstr "Uw iContact-configuratie is geldig"
+
+#: src/Integrations/IContact/Bootstrap.php:42
+msgid "Your iContact configuration is invalid"
+msgstr "Uw iContact-configuratie is ongeldig"
+
+#: src/Integrations/IContact/Bootstrap.php:49
+msgid "Enter your iContact Application Key"
+msgstr "Voer uw iContact-applicatiesleutel in"
+
+#: src/Integrations/IContact/Bootstrap.php:50
+msgid "Application Key"
+msgstr "Toepassingssleutel"
+
+#: src/Integrations/IContact/Bootstrap.php:55
+msgid "Enter your iContact Account Email Address"
+msgstr "Voer het e-mailadres van uw iContact-account in"
+
+#: src/Integrations/IContact/Bootstrap.php:56
+msgid "Account Email Address"
+msgstr "E-mailadres van account"
+
+#: src/Integrations/IContact/Bootstrap.php:61
+msgid "Enter your iContact API Password"
+msgstr "Voer uw iContact API-wachtwoord in"
+
+#: src/Integrations/IContact/Bootstrap.php:62
+msgid "API Password"
+msgstr "API-wachtwoord"
+
+#: src/Integrations/IContact/Bootstrap.php:67
+msgid ""
+"Enter your Account ID. It's a numeric value. You will get in the api settings"
+msgstr ""
+
+#: src/Integrations/IContact/Bootstrap.php:68
+msgid "Account ID"
+msgstr ""
+
+#: src/Integrations/IContact/Bootstrap.php:73
+msgid "Enter your Client Folder ID"
+msgstr "Voer uw Client Folder ID in"
+
+#: src/Integrations/IContact/Bootstrap.php:74
+msgid "Client Folder ID"
+msgstr "Clientmap-ID"
+
+#: src/Integrations/IContact/Bootstrap.php:119
+msgid "Your API settings has been updated and discarted"
+msgstr "Uw API-instellingen zijn bijgewerkt en verwijderd"
+
+#: src/Integrations/IContact/Bootstrap.php:145
+msgid "Your API key settings has been verified and updated. All good!"
+msgstr ""
+
+#: src/Integrations/IContact/Bootstrap.php:227
+msgid "Prefix"
+msgstr "Voorvoegsel"
+
+#: src/Integrations/IContact/Bootstrap.php:239
+msgid "Suffix"
+msgstr "Achtervoegsel"
+
+#: src/Integrations/IContact/Bootstrap.php:243
+msgid "Address: Line 1"
+msgstr "Adres: regel 1"
+
+#: src/Integrations/IContact/Bootstrap.php:247
+msgid "Address: Line 2"
+msgstr "Adres: regel 2"
+
+#: src/Integrations/IContact/Bootstrap.php:251
+msgid "Address: City"
+msgstr "Adres: stad"
+
+#: src/Integrations/IContact/Bootstrap.php:255
+msgid "Address: State"
+msgstr "Adres: provincie"
+
+#: src/Integrations/IContact/Bootstrap.php:259
+msgid "Address: Postal Code"
+msgstr "Adres: postcode"
+
+#: src/Integrations/IContact/Bootstrap.php:267
+msgid "Fax Number"
+msgstr "Faxnummer"
+
+#: src/Integrations/IContact/Bootstrap.php:271
+msgid "Business Number"
+msgstr "Zakelijk nummer"
+
+#: src/Integrations/CampaignMonitor/Bootstrap.php:40
+msgid "CampaignMonitor API Settings"
+msgstr "CampaignMonitor API-instellingen"
+
+#: src/Integrations/CampaignMonitor/Bootstrap.php:41
+msgid ""
+"CampaignMonitor drives results with email marketing. It shares how to gain "
+"loyal customers with personalized email campaigns and automated customer "
+"journeys. Use Fluent Form to collect customer information and automatically "
+"add it to your CampaignMonitor list. If you don't have an CampaignMonitor "
+"account, you can <a href=\"https://www.campaignmonitor.com/\" "
+"target=\"_blank\">sign up for one here.</a>"
+msgstr ""
+"CampaignMonitor genereert resultaten met e-mailmarketing. Het deelt hoe u "
+"loyale klanten kunt werven met gepersonaliseerde e-mailcampagnes en "
+"geautomatiseerde klantreizen. Gebruik Fluent Form om klantgegevens te "
+"verzamelen en deze automatisch toe te voegen aan uw CampaignMonitor-lijst. "
+"Als u geen CampaignMonitor-account heeft, kunt u <a href=\"https://www."
+"campaignmonitor.com/\" target=\"_blank\">zich hier hier aanmelden.</a>"
+
+#: src/Integrations/CampaignMonitor/Bootstrap.php:42
+msgid "Your CampaignMonitor configuration is valid"
+msgstr "Uw CampaignMonitor-configuratie is geldig"
+
+#: src/Integrations/CampaignMonitor/Bootstrap.php:43
+msgid "Your CampaignMonitor configuration is invalid"
+msgstr "Uw CampaignMonitor-configuratie is ongeldig"
+
+#: src/Integrations/CampaignMonitor/Bootstrap.php:49
+msgid ""
+"Enter your CampaignMonitor API Key, if you do not have <br>Please login to "
+"your CampaignMonitor account and find the api key"
+msgstr ""
+"Voer uw CampaignMonitor API-sleutel in, als u deze niet heeft <br> Meld u "
+"aan bij uw CampaignMonitor-account en zoek de API-sleutel"
+
+#: src/Integrations/CampaignMonitor/Bootstrap.php:50
+msgid "CampaignMonitor API Key"
+msgstr "CampaignMonitor API-sleutel"
+
+#: src/Integrations/CampaignMonitor/Bootstrap.php:56
+msgid "Select the CampaignMonitor client that you want to connect this site"
+msgstr "Selecteer de CampaignMonitor-client waarmee u deze site wilt verbinden"
+
+#: src/Integrations/CampaignMonitor/Bootstrap.php:57
+msgid "CampaignMonitor Client"
+msgstr "CampaignMonitor Client"
+
+#: src/Integrations/CampaignMonitor/Bootstrap.php:116
+msgid "Please Select Client Now"
+msgstr "Selecteer nu Client"
+
+#: src/Integrations/GoogleSheet/Bootstrap.php:41
+msgid "Google Sheets"
+msgstr "Google Spreadsheets"
+
+#: src/Integrations/GoogleSheet/Bootstrap.php:42
+msgid ""
+"Copy that Google Access Code from other window and paste it here, then click "
+"on Verify Code button."
+msgstr ""
+
+#: src/Integrations/GoogleSheet/Bootstrap.php:43
+msgid "Your Google Access Code is valid"
+msgstr "Uw Google-toegangscode is geldig"
+
+#: src/Integrations/GoogleSheet/Bootstrap.php:44
+msgid "Your Google Access Code is not valid"
+msgstr "Uw Google-toegangscode is niet geldig"
+
+#: src/Integrations/GoogleSheet/Bootstrap.php:45
+msgid "Verify Code"
+msgstr "Code verifiëren"
+
+#: src/Integrations/GoogleSheet/Bootstrap.php:50
+msgid ""
+"Enter Google Access Code. Please find this by clicking 'Get Google Sheet "
+"Access Code' Button"
+msgstr ""
+"Voer Google-toegangscode in. U kunt dit vinden door op de knop 'Get Google "
+"Sheet Access Code' te klikken"
+
+#: src/Integrations/GoogleSheet/Bootstrap.php:51
+msgid "Access Code"
+msgstr "Toegangscode"
+
+#: src/Integrations/GoogleSheet/Bootstrap.php:125
+msgid "Your Google Sheet api key has been verified and successfully set"
+msgstr ""
+
+#: src/Integrations/Trello/Bootstrap.php:42
+msgid "Trello API Settings"
+msgstr "Trello API-instellingen"
+
+#: src/Integrations/Trello/Bootstrap.php:43
+msgid ""
+"Trello is an integrated email marketing, marketing automation, and small "
+"business CRM. Save time while growing your business with sales automation. "
+"Use Fluent Form to collect customer information and automatically add it to "
+"your Trello list. If you don't have an Trello account, you can <a "
+"href=\"https://www.trello.com/\" target=\"_blank\">sign up for one here.</a>"
+msgstr ""
+"Trello is een geïntegreerde e-mailmarketing, marketingautomatisering en CRM "
+"voor kleine bedrijven. Bespaar tijd terwijl u uw bedrijf laat groeien met "
+"verkoopautomatisering. Gebruik Fluent Form om klantinformatie te verzamelen "
+"en deze automatisch toe te voegen aan uw Trello-lijst. Als je geen Trello-"
+"account hebt, kun je je hier <a href=\"https://www.trello.com/\" "
+"target=\"_blank\">aanmelden.</a>"
+
+#: src/Integrations/Trello/Bootstrap.php:44
+msgid "Your Trello configuration is valid"
+msgstr "Uw Trello-configuratie is geldig"
+
+#: src/Integrations/Trello/Bootstrap.php:45
+msgid "Your Trello configuration is invalid"
+msgstr "Uw Trello-configuratie is ongeldig"
+
+#: src/Integrations/Trello/Bootstrap.php:52
+msgid ""
+"Enter your Trello access token Key, if you do not have <br>Please click here "
+"to get yours"
+msgstr ""
+"Voer uw Trello-toegangstoken sleutel in, als u deze niet heeft <br> Klik "
+"hier om de uwe te verkrijgen"
+
+#: src/Integrations/Trello/Bootstrap.php:53
+msgid "Trello access Key"
+msgstr "Trello-toegangssleutel"
+
+#: src/Integrations/MooSend/Bootstrap.php:38
+msgid "MooSend API Settings"
+msgstr "MooSend API-instellingen"
+
+#: src/Integrations/MooSend/Bootstrap.php:39
+msgid ""
+"MooSend is email marketing software. Use Fluent Form to collect customer "
+"information and automatically add it as MooSend subscriber list."
+msgstr ""
+"MooSend is e-mailmarketingsoftware. Gebruik Fluent Form om klantgegevens te "
+"verzamelen en deze automatisch toe te voegen als MooSend-abonneelijst."
+
+#: src/Integrations/MooSend/Bootstrap.php:40
+msgid "Your MooSend API Key is valid"
+msgstr "Uw MooSend API-sleutel is geldig"
+
+#: src/Integrations/MooSend/Bootstrap.php:41
+msgid "Your MooSend API Key is not valid"
+msgstr "Uw MooSend API-sleutel is niet geldig"
+
+#: src/Integrations/MooSend/Bootstrap.php:47
+msgid ""
+"Enter your MooSend API Key, if you do not have <br>Please login to your "
+"MooSend account and go to<br>Account -> Api Key"
+msgstr ""
+"Voer uw MooSend API-sleutel in, als u niet beschikt over <br> Log in op uw "
+"MooSend-account en ga naar <br> Account -> Api Key"
+
+#: src/Integrations/MooSend/Bootstrap.php:48
+msgid "MooSend API Key"
+msgstr "MooSend API-sleutel"
+
+#: src/Integrations/MooSend/Bootstrap.php:117
+msgid "Your MooSend api key has been verified and successfully set"
+msgstr ""
+
+#: src/Integrations/Aweber/Bootstrap.php:39
+msgid "AWeber API Settings"
+msgstr "AWeber API-instellingen"
+
+#: src/Integrations/Aweber/Bootstrap.php:40
+msgid ""
+"AWeber is an integrated email marketing, marketing automation, and small "
+"business CRM. Save time while growing your business with sales automation. "
+"Use Fluent Form to collect customer information and automatically add it to "
+"your Aweber list. If you don't have an Aweber account, you can <a "
+"href=\"https://www.aweber.com/\" target=\"_blank\">sign up for one here.</a>"
+msgstr ""
+"AWeber is een geïntegreerde e-mailmarketing, marketingautomatisering en CRM "
+"voor kleine bedrijven. Bespaar tijd terwijl u uw bedrijf laat groeien met "
+"verkoopautomatisering. Gebruik Fluent Form om klantgegevens te verzamelen en "
+"deze automatisch toe te voegen aan uw Aweber-lijst. Als u geen Aweber-"
+"account heeft, kunt u <a href=\"https://www.aweber.com/\" target=\"_blank\">"
+"zich hier aanmelden.</a>"
+
+#: src/Integrations/Aweber/Bootstrap.php:41
+msgid "Your Aweber configuration is valid"
+msgstr "Uw Aweber-configuratie is geldig"
+
+#: src/Integrations/Aweber/Bootstrap.php:42
+msgid "Your Aweber configuration is invalid"
+msgstr "Uw Aweber-configuratie is ongeldig"
+
+#: src/Integrations/Aweber/Bootstrap.php:49
+msgid ""
+"Enter your Aweber Access token, if you do not have <br>Please click on the "
+"get Access token"
+msgstr ""
+"Voer uw Aweber Access-token in, als u geen <br> hebt. Klik op het Get Access-"
+"token"
+
+#: src/Integrations/Aweber/Bootstrap.php:50
+msgid "AWeber Access Token"
+msgstr "AWeber-toegangstoken"
+
+#: src/Components/Post/AcfHelper.php:107
+msgid "Select select field for this mapping"
+msgstr ""
+
+#: src/Components/Post/AcfHelper.php:111
+msgid "Select checkbox field for this mapping"
+msgstr ""
+
+#: src/Components/Post/AcfHelper.php:115 src/Components/Post/AcfHelper.php:119
+msgid "Select radio field for this mapping"
+msgstr ""
+
+#: src/Components/Post/AcfHelper.php:123
+msgid "Select single checkbox field for this mapping"
+msgstr ""
+
+#: src/Components/Post/AcfHelper.php:127
+msgid "Select File upload field for this mapping"
+msgstr ""
+
+#: src/Components/Post/AcfHelper.php:131 src/Components/Post/AcfHelper.php:135
+msgid "Select Image upload field for this mapping"
+msgstr ""
+
+#: src/Components/Post/AcfHelper.php:139
+msgid ""
+"Please select repeat field. Your ACF repeat and form field columns need to "
+"be equal"
+msgstr ""
+
+#: src/Components/Post/EditorSettings.php:98
+msgid "Select"
+msgstr "Selecteer"
+
+#: src/Components/Post/EditorSettings.php:102
+msgid "Multi-Select"
+msgstr "Multi-Select"
+
+#: src/Components/Post/EditorSettings.php:106
+msgid "Checkbox"
+msgstr "Selectievakje"
+
+#: src/Components/Post/EditorSettings.php:127
+msgid "Post Creation"
+msgstr "Post aanmaak"
+
+#: src/Components/ChainedSelect/ChainedSelect.php:49
+msgid "Select Parent | Select Child"
+msgstr "Selecteer Ouder | Selecteer Kind"
+
+#: src/views/receipt/customer_details.php:7
+msgid "Customer Name:"
+msgstr "Klantnaam:"
+
+#: src/views/receipt/customer_details.php:10
+msgid "Customer Email:"
+msgstr "Klant e-mail:"
+
+#: src/views/receipt/customer_details.php:13
+msgid "Billing Address:"
+msgstr "Factuur adres:"
+
+#: src/views/receipt/customer_details.php:16
+msgid "Shipping Address:"
+msgstr "Afleveradres:"
+
+#: src/Payments/PaymentMethods/PayPal/PayPalProcessor.php:131
+msgid ""
+"You are redirecting to PayPal.com to complete the purchase. Please wait "
+"while you are redirecting...."
+msgstr ""
+"Je wordt omgeleid naar paypal.com om de aankoop te voltooien. Even geduld a."
+"u.b. terwijl je doorverwezen wordt ...."
+
+#: src/Payments/PaymentMethods/PayPal/PayPalProcessor.php:193
+msgid "Payment was not marked as Paid"
+msgstr "Betaling is niet gemarkeerd als Betaald"
+
+#: src/Payments/PaymentMethods/PayPal/PayPalProcessor.php:195
+msgid ""
+"Looks like the payment is not marked as paid yet. Please reload this page "
+"after 1-2 minutes. Sometimes, PayPal payments take few minutes to marked as "
+"paid.  Please contact if needed!"
+msgstr ""
+"Het lijkt erop dat de betaling nog niet is gemarkeerd als betaald. Laad deze "
+"pagina na 1-2 minuten opnieuw. Soms duurt het enkele minuten voordat PayPal-"
+"betalingen zijn gemarkeerd als betaald. Neem indien nodig contact op!"
+
+#: src/Payments/PaymentMethods/PayPal/PayPalProcessor.php:200
+msgid "Payment Cancelled"
+msgstr "Betaling geannuleerd"
+
+#: src/Payments/PaymentMethods/PayPal/PayPalProcessor.php:202
+msgid "Looks like you have cancelled the payment"
+msgstr "Het lijkt erop dat je de betaling hebt geannuleerd"
+
+#: src/Payments/PaymentMethods/PayPal/PayPalHandler.php:42
+msgid "PayPal"
+msgstr "PayPal"
+
+#: src/Payments/PaymentMethods/PayPal/PayPalHandler.php:71
+msgid "PayPal Email address is required"
+msgstr "E-mailadres van PayPal is vereist"
+
+#: src/Payments/PaymentMethods/PayPal/PayPalHandler.php:75
+msgid "Please select Payment Mode"
+msgstr "Selecteer de betalingsmodus"
+
+#: src/Payments/PaymentMethods/Offline/OfflineHandler.php:34
+msgid "Offline Payment"
+msgstr ""
+
+#: src/Payments/PaymentMethods/Stripe/StripeProcessor.php:153
+msgid ""
+"You are redirecting to stripe.com to complete the purchase. Please wait "
+"while you are redirecting...."
+msgstr ""
+"Je wordt omgeleid naar stripe.com om de aankoop te voltooien. Even geduld a."
+"u.b. terwijl je doorverwezen wordt ...."
+
+#: src/Payments/PaymentMethods/Stripe/StripeProcessor.php:263
+msgid "Looks like you have cancelled the payment. Please try again!"
+msgstr ""
+"Het lijkt erop dat je de betaling hebt geannuleerd. Probeer het alstublieft "
+"opnieuw!"
+
+#: src/Payments/PaymentMethods/Stripe/StripeHandler.php:49
+msgid "Credit/Debit Card (Stripe)"
+msgstr "Credit / Debit Card (streep)"
+
+#: src/Components/Post/Components/FeaturedImage.php:58
+msgid "Maximum file size limit is 1MB"
+msgstr "De maximale bestandsgrootte is 1 MB"
+
+#: src/Components/Post/Components/FeaturedImage.php:62
+msgid "You can upload maximum 1 image"
+msgstr "U kunt maximaal 1 afbeelding uploaden"
+
+#: src/Components/Post/Components/FeaturedImage.php:66
+msgid "Allowed image types does not match"
+msgstr "Toegestane afbeeldingstypen komen niet overeen"
+
+#: src/Payments/PaymentMethods/Stripe/API/ApiRequest.php:135
+#: src/Payments/PaymentMethods/Stripe/API/ApiRequest.php:160
+msgid "There was a problem connecting to the Stripe API endpoint."
+msgstr ""
+"Er is een probleem opgetreden bij het verbinden met het Stripe API-eindpunt."
+
+#. Name of the plugin
+msgid "Fluent Forms Pro Add On Pack"
+msgstr "Fluent Forms Pro Add On Pack"
+
+#. Description of the plugin
+msgid ""
+"The Pro version of FluentForm, the most advanced, drag and drop form builder "
+"plugin for WordPress."
+msgstr ""
+"De Pro-versie van FluentForm, de meest geavanceerde plug-in voor het maken "
+"en slepen van formulieren voor WordPress."
+
+#. URI of the plugin
+msgid "https://wpfluentforms.com/"
+msgstr "https://wpfluentforms.com/"
+
+#. Author of the plugin
+msgid "WP Fluent Forms"
+msgstr "WP Fluent Forms"
+
+#. Author URI of the plugin
+msgid "https://wpfluentforms.com"
+msgstr "https://wpfluentforms.com"

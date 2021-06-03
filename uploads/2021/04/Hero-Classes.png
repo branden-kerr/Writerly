@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<title>Page not found - Elementor E-Kit</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v11.8 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Page not found - Elementor E-Kit" />
+<meta property="og:site_name" content="Elementor E-Kit" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Page not found - Elementor E-Kit" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://edu.elementor.com/ekit/#website","url":"https://edu.elementor.com/ekit/","name":"Elementor E-Kit","potentialAction":{"@type":"SearchAction","target":"https://edu.elementor.com/ekit/?s={search_term_string}","query-input":"required name=search_term_string"}}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Elementor E-Kit &raquo; Feed" href="https://edu.elementor.com/ekit/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Elementor E-Kit &raquo; Comments Feed" href="https://edu.elementor.com/ekit/comments/feed/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://edu.elementor.com/ekit/wp-includes/css/dist/block-library/style.min.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-hello-theme-style-css'  href='https://edu.elementor.com/ekit/wp-content/themes/elementor-hello-theme/style.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.6.8' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.6.8' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-pro-css'  href='https://edu.elementor.com/ekit/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=2.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css'  href='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=2.6.8' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css'  href='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=2.6.8' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='https://edu.elementor.com/ekit/wp-content/uploads/sites/91/elementor/css/global.css?ver=1565852612' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-5195-css'  href='https://edu.elementor.com/ekit/wp-content/uploads/sites/91/elementor/css/post-5195.css?ver=1565852613' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-5207-css'  href='https://edu.elementor.com/ekit/wp-content/uploads/sites/91/elementor/css/post-5207.css?ver=1565852613' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRacing+Sans+One%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-regular-css'  href='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css'  href='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.9.0' type='text/css' media='all' />
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript" src='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=2.6.8'></script>
+<link rel='https://api.w.org/' href='https://edu.elementor.com/ekit/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://edu.elementor.com/ekit/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://edu.elementor.com/ekit/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.2" />
+<!-- Stream WordPress user activity plugin v3.4.1 -->
+</head>
+<body class="error404 elementor-default">
+
+		<div data-elementor-type="header" data-elementor-id="5195" class="elementor elementor-5195 elementor-location-header" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-6cd81c7 elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="6cd81c7" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2de123f elementor-column elementor-col-100 elementor-top-column" data-id="2de123f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-5116ce2 elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section elementor-inner-section" data-id="5116ce2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-1734f2d elementor-column elementor-col-50 elementor-inner-column" data-id="1734f2d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d4c6892 elementor-mobile-align-left elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="d4c6892" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item" >
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-phone"></i>						</span>
+										<span class="elementor-icon-list-text">585-346-6021</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-549b332 elementor-column elementor-col-50 elementor-inner-column" data-id="549b332" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-59fc2fb elementor-align-right elementor-mobile-align-right elementor-widget elementor-widget-button" data-id="59fc2fb" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#elementor-action%3Aaction%3Dpopup%3Aopen%20settings%3DeyJpZCI6IjU2NTEiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="fas fa-angle-double-right"></i>			</span>
+						<span class="elementor-button-text">Join Us</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-af8e6d4 elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section elementor-inner-section" data-id="af8e6d4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-22c4afa elementor-column elementor-col-50 elementor-inner-column" data-id="22c4afa" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e6ba20d elementor-widget elementor-widget-image" data-id="e6ba20d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+											<a href="https://edu.elementor.com/ekit" data-elementor-open-lightbox="">
+							<img width="500" height="166" src="https://edu.elementor.com/ekit/wp-content/uploads/sites/91/2019/08/Logo-Gym-New.png" class="attachment-full size-full" alt="" srcset="https://edu.elementor.com/ekit/wp-content/uploads/sites/91/2019/08/Logo-Gym-New.png 500w, https://edu.elementor.com/ekit/wp-content/uploads/sites/91/2019/08/Logo-Gym-New-300x100.png 300w" sizes="(max-width: 500px) 100vw, 500px" />								</a>
+											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-f47f33a elementor-column elementor-col-50 elementor-inner-column" data-id="f47f33a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-0a1d9fb elementor-nav-menu__align-right elementor-nav-menu--stretch elementor-nav-menu__text-align-center elementor-nav-menu--indicator-classic elementor-nav-menu--dropdown-tablet elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="0a1d9fb" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade"><ul id="menu-1-0a1d9fb" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1595"><a href="https://edu.elementor.com/ekit/" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1594"><a href="https://edu.elementor.com/ekit/gym-about/" class="elementor-item">About</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5662"><a href="https://edu.elementor.com/ekit/gym-trainer/" class="elementor-sub-item">Trainer</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1593"><a href="https://edu.elementor.com/ekit/gym-classes/" class="elementor-item">Classes</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5394"><a href="https://edu.elementor.com/ekit/gym-fitness/" class="elementor-sub-item">Fitness</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1592"><a href="https://edu.elementor.com/ekit/gym-pricing/" class="elementor-item">Pricing</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5395"><a href="https://edu.elementor.com/ekit/category/our-gym-news/" class="elementor-item">Gym News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1591"><a href="https://edu.elementor.com/ekit/gym-contact-us/" class="elementor-item">Contact Us</a></li>
+</ul></nav>
+					<div class="elementor-menu-toggle">
+			<i class="eicon-menu-bar" aria-hidden="true"></i>
+			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container"><ul id="menu-2-0a1d9fb" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1595"><a href="https://edu.elementor.com/ekit/" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1594"><a href="https://edu.elementor.com/ekit/gym-about/" class="elementor-item">About</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5662"><a href="https://edu.elementor.com/ekit/gym-trainer/" class="elementor-sub-item">Trainer</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1593"><a href="https://edu.elementor.com/ekit/gym-classes/" class="elementor-item">Classes</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5394"><a href="https://edu.elementor.com/ekit/gym-fitness/" class="elementor-sub-item">Fitness</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1592"><a href="https://edu.elementor.com/ekit/gym-pricing/" class="elementor-item">Pricing</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5395"><a href="https://edu.elementor.com/ekit/category/our-gym-news/" class="elementor-item">Gym News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1591"><a href="https://edu.elementor.com/ekit/gym-contact-us/" class="elementor-item">Contact Us</a></li>
+</ul></nav>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		<main id="main" class="site-main" role="main">
+
+	<header class="page-header">
+		<h1 class="entry-title">The page can&rsquo;t be found.</h1>
+	</header>
+
+	<div class="page-content">
+		<p>It looks like nothing was found at this location.</p>
+	</div>
+
+</main>
+		<div data-elementor-type="footer" data-elementor-id="5207" class="elementor elementor-5207 elementor-location-footer" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-533930a elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="533930a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;tilt&quot;}">
+					<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M0,6V0h1000v100L0,6z"/>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-05952bd elementor-column elementor-col-100 elementor-top-column" data-id="05952bd" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-e6099f6 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="e6099f6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-53f03f6 elementor-column elementor-col-100 elementor-inner-column" data-id="53f03f6" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-b0dd520 elementor-widget elementor-widget-image" data-id="b0dd520" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+											<a href="https://edu.elementor.com/ekit" data-elementor-open-lightbox="">
+							<img width="500" height="166" src="https://edu.elementor.com/ekit/wp-content/uploads/sites/91/2019/08/Logo-Gym-New.png" class="attachment-large size-large" alt="" srcset="https://edu.elementor.com/ekit/wp-content/uploads/sites/91/2019/08/Logo-Gym-New.png 500w, https://edu.elementor.com/ekit/wp-content/uploads/sites/91/2019/08/Logo-Gym-New-300x100.png 300w" sizes="(max-width: 500px) 100vw, 500px" />								</a>
+											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-cf81905 elementor-widget elementor-widget-text-editor" data-id="cf81905" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>we will guide you and help you with achieving your goals.<br />we at garage believe that we can help you every step of the way. come join our family and be part of something great. take the first step today.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7902580 elementor-icon-list--layout-inline elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-icon-list" data-id="7902580" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item" >
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-phone"></i>						</span>
+										<span class="elementor-icon-list-text">585-346-6021</span>
+									</li>
+								<li class="elementor-icon-list-item" >
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-map-marker-alt"></i>						</span>
+										<span class="elementor-icon-list-text">4769 Olen Thomas Drive</span>
+									</li>
+								<li class="elementor-icon-list-item" >
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="far fa-clock"></i>						</span>
+										<span class="elementor-icon-list-text">06:00 - 00:00</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5b7773d elementor-icon-list--layout-inline elementor-align-center elementor-widget elementor-widget-icon-list" data-id="5b7773d" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item" >
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-facebook-square"></i>						</span>
+										<span class="elementor-icon-list-text"></span>
+									</li>
+								<li class="elementor-icon-list-item" >
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-instagram"></i>						</span>
+										<span class="elementor-icon-list-text"></span>
+									</li>
+								<li class="elementor-icon-list-item" >
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-twitter"></i>						</span>
+										<span class="elementor-icon-list-text"></span>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-891f6f5 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section elementor-inner-section" data-id="891f6f5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3c888bd elementor-column elementor-col-50 elementor-inner-column" data-id="3c888bd" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-2715572 elementor-widget elementor-widget-heading" data-id="2715572" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">We Are Here To Help You</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9d33e30 elementor-widget elementor-widget-heading" data-id="9d33e30" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">dont afraid to ask</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-24d7c93 elementor-column elementor-col-50 elementor-inner-column" data-id="24d7c93" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-306f6f1 elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="306f6f1" data-element_type="widget" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-form" method="post" name="New Form">
+			<input type="hidden" name="post_id" value="5207"/>
+			<input type="hidden" name="form_id" value="306f6f1"/>
+
+			<div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-33">
+					<label for="form-field-name" class="elementor-field-label elementor-screen-only">Name</label><input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Name">				</div>
+								<div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_1 elementor-col-33">
+					<label for="form-field-field_1" class="elementor-field-label elementor-screen-only">Phone</label><input size="1" type="tel" name="form_fields[field_1]" id="form-field-field_1" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Phone" pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">				</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-33">
+					<button type="submit" class="elementor-button elementor-size-md">
+						<span >
+															<span class="elementor-align-icon-right elementor-button-icon">
+									<i aria-hidden="true" class="fas fa-angle-double-right"></i>																	</span>
+																						<span class="elementor-button-text">Send</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<div class="elementor-element elementor-element-f17567c elementor-widget elementor-widget-text-editor" data-id="f17567c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">© 2019 All Rights Reserved</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		
+		<div data-elementor-type="popup" data-elementor-id="5651" class="elementor elementor-5651 elementor-location-popup" data-elementor-settings="{&quot;exit_animation&quot;:&quot;fadeIn&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;1&quot;,&quot;sizes&quot;:[]},&quot;close_button_delay&quot;:&quot;2&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-44ce8b6 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="44ce8b6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-82c3f77 elementor-invisible elementor-column elementor-col-50 elementor-top-column" data-id="82c3f77" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;bounceInLeft&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4ec2d7b elementor-widget elementor-widget-heading" data-id="4ec2d7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Crazy Summer Sale!</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b6eb219 elementor-widget elementor-widget-heading" data-id="b6eb219" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">35% off </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1fd2754 elementor-widget elementor-widget-heading" data-id="1fd2754" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">for the first year
+of membership</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c51f31e elementor-align-center elementor-widget__width-auto elementor-absolute elementor-invisible elementor-widget elementor-widget-button" data-id="c51f31e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceInUp&quot;,&quot;_animation_delay&quot;:&quot;600&quot;,&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="fas fa-angle-double-right"></i>			</span>
+						<span class="elementor-button-text">Register Today</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-718fb1f elementor-column elementor-col-50 elementor-top-column" data-id="718fb1f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-c840f96 elementor-widget__width-initial elementor-absolute elementor-invisible elementor-widget elementor-widget-image" data-id="c840f96" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceInRight&quot;,&quot;_animation_delay&quot;:&quot;300&quot;,&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="342" height="331" src="https://edu.elementor.com/ekit/wp-content/uploads/sites/91/2019/08/Popup.png" class="attachment-large size-large" alt="" srcset="https://edu.elementor.com/ekit/wp-content/uploads/sites/91/2019/08/Popup.png 342w, https://edu.elementor.com/ekit/wp-content/uploads/sites/91/2019/08/Popup-300x290.png 300w" sizes="(max-width: 342px) 100vw, 342px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		<link rel='stylesheet' id='elementor-post-5651-css'  href='https://edu.elementor.com/ekit/wp-content/uploads/sites/91/elementor/css/post-5651.css?ver=1565852613' type='text/css' media='all' />
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript" src='https://edu.elementor.com/ekit/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript" src='https://edu.elementor.com/ekit/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript" src='https://edu.elementor.com/ekit/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1'></script>
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript" src='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=2.6.8'></script>
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript" src='https://edu.elementor.com/ekit/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=2.6.2'></script>
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/edu.elementor.com\/ekit\/wp-admin\/admin-ajax.php","nonce":"aa2fb894c7","shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"delicious":{"title":"Delicious"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""}};
+</script>
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript" src='https://edu.elementor.com/ekit/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=2.6.2'></script>
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript" src='https://edu.elementor.com/ekit/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript" src='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.7.3'></script>
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript" src='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript" src='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=4.4.6'></script>
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.6.8","urls":{"assets":"https:\/\/edu.elementor.com\/ekit\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"general":{"elementor_global_image_lightbox":"yes","elementor_enable_lightbox_in_editor":"yes"}},"post":{"id":0,"title":"Page not found - Elementor E-Kit","excerpt":""}};
+</script>
+<script type="fbbe53eff80f8f8fba167e6b-text/javascript" src='https://edu.elementor.com/ekit/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.6.8'></script>
+
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="fbbe53eff80f8f8fba167e6b-|49" defer=""></script></body>
+</html>

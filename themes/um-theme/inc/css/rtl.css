@@ -1,0 +1,104 @@
+/* Reset */
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+th {
+    text-align: right;
+}
+
+/* Typography */
+
+textarea {
+    padding-right: 3px;
+}
+
+li>ul,
+li>ol {
+    margin-left: 0;
+    margin-right: 1.5em;
+}
+
+th:first-child,
+td:first-child {
+    padding-left: 0.4em;
+    padding-right: 0;
+}
+
+th:last-child,
+td:last-child {
+    padding-left: 0;
+    padding-right: 0.4em;
+}
+
+/* Forms */
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-left: 0.5em;
+    margin-right: 0;
+}
+
+.single-article-content .comments-title,
+.single-article-content .logged-in-as,
+.single-article-content .comment-reply-title,
+#secondary .widget,
+p.meta.author-bio,
+.content-area {
+    text-align: right;
+}
+
+.dropdown:hover>.dropdown-menu {
+    text-align: right;
+}
+
+.dropdown-menu {
+    right: 0;
+}
+
+.outer-section-profile-container .inner-section-profile-container {
+    left: 150px !important;
+    right: auto;
+}
+
+
+.outer-section-profile-container .fa-angle-down {
+    display: none;
+}
+
+.um-header-avatar-name:after {
+    font-family: FontAwesome !important;
+    content: "\f107";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs,
+.woocommerce-Tabs-panel,
+.single-product .summary.entry-summary {
+    text-align: right;
+}
+
+.list-unstyled {
+    padding-right: 0;
+}
+
+.widget-area ul {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.um-profile-meta .um-name {
+    margin-top: 100px;
+}
+
+a.um-edit-profile-btn:before,
+a.um-message-btn:before {
+    margin-right: 0;
+    margin-left: 8px;
+}

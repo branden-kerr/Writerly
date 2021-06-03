@@ -1,0 +1,174 @@
+# Copyright (C) 2020 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - Profile tabs plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Profile tabs 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/um-profile-tabs\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-12-16T16:25:14+02:00\n"
+"PO-Revision-Date: 2020-12-22 18:49+0200\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Domain: um-profile-tabs\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#. Plugin Name of the plugin
+msgid "Ultimate Member - Profile tabs"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://ultimatemember.com/extensions/profile-tabs"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds custom tabs to user profile."
+msgstr ""
+
+#. Author of the plugin
+msgid "Ultimate Member"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://ultimatemember.com/"
+msgstr ""
+
+#: includes/admin/class-admin.php:44
+msgid "Profile tabs License Key"
+msgstr ""
+
+#: includes/admin/class-admin.php:75
+msgid "Profile Tabs Order"
+msgstr ""
+
+#: includes/admin/class-admin.php:79
+msgid ""
+"Pay an attention that default tab ignore the order and will be displayed the "
+"first"
+msgstr ""
+
+#: includes/admin/class-admin.php:90 includes/core/class-common.php:30
+#: includes/core/class-common.php:31 includes/core/class-common.php:48
+msgid "Profile Tabs"
+msgstr ""
+
+#: includes/admin/class-admin.php:165
+msgid "Display Settings"
+msgstr ""
+
+#: includes/admin/class-admin.php:174
+msgid "Customize this tab"
+msgstr ""
+
+#: includes/admin/class-admin.php:183
+msgid "Pre-defined content"
+msgstr ""
+
+#: includes/admin/templates/profile-tab/access.php:34
+msgid "Show on these roles profiles"
+msgstr ""
+
+#: includes/admin/templates/profile-tab/access.php:35
+msgid ""
+"You could select the roles which have the current profile tab at their form. "
+"If empty, profile tab is visible for all roles at their forms."
+msgstr ""
+
+#: includes/admin/templates/profile-tab/access.php:43
+msgid "Show on these profiles forms"
+msgstr ""
+
+#: includes/admin/templates/profile-tab/access.php:44
+msgid ""
+"You could select the forms where the current profile tab is visible. If "
+"empty, profile tab is visible for all forms."
+msgstr ""
+
+#: includes/admin/templates/profile-tab/access.php:51
+msgid "More profile menu settings you could set <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/admin/templates/profile-tab/icon.php:12
+msgid "Icon"
+msgstr ""
+
+#: includes/admin/templates/profile-tab/um-form.php:18
+msgid "No form"
+msgstr ""
+
+#: includes/admin/templates/profile-tab/um-form.php:40
+msgid "Custom Profile Form"
+msgstr ""
+
+#: includes/core/class-common.php:28
+msgctxt "Post Type General Name"
+msgid "Profile Tabs"
+msgstr ""
+
+#: includes/core/class-common.php:29
+msgctxt "Post Type Singular Name"
+msgid "Profile tab"
+msgstr ""
+
+#: includes/core/class-common.php:32
+msgid "Item Archives"
+msgstr ""
+
+#: includes/core/class-common.php:33
+msgid "Item Attributes"
+msgstr ""
+
+#: includes/core/class-common.php:34
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/core/class-common.php:35
+msgid "All Items"
+msgstr ""
+
+#: includes/core/class-common.php:36
+msgid "Add New Item"
+msgstr ""
+
+#: includes/core/class-common.php:37
+msgid "Add New"
+msgstr ""
+
+#: includes/core/class-common.php:38
+msgid "New Item"
+msgstr ""
+
+#: includes/core/class-common.php:39
+msgid "Edit Item"
+msgstr ""
+
+#: includes/core/class-common.php:40
+msgid "Update Item"
+msgstr ""
+
+#: includes/core/class-common.php:41
+msgid "View Item"
+msgstr ""
+
+#: includes/core/class-common.php:42
+msgid "View Items"
+msgstr ""
+
+#: includes/core/class-common.php:43
+msgid "Search Item"
+msgstr ""
+
+#: includes/core/class-common.php:44
+msgid "Not found"
+msgstr ""
+
+#: includes/core/class-profile.php:313
+msgid "Update"
+msgstr ""
+
+#: includes/core/class-profile.php:326
+msgid "Edit"
+msgstr ""

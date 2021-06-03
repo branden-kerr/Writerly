@@ -1,0 +1,117 @@
+# Copyright (C) 2021 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - Unsplash plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Unsplash 2.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/um-unsplash\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-02-18T02:38:35+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: um-unsplash\n"
+
+#. Plugin Name of the plugin
+msgid "Ultimate Member - Unsplash"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://ultimatemember.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Let users choose cover photo from Unsplash"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ultimate Member"
+msgstr ""
+
+#: includes/admin/class-admin.php:37
+msgid "Unsplash License Key"
+msgstr ""
+
+#: includes/admin/class-admin.php:46
+msgid "Unsplash"
+msgstr ""
+
+#: includes/admin/class-admin.php:52
+msgid "No. of photos to display"
+msgstr ""
+
+#: includes/admin/class-admin.php:58
+msgid "Example : Light"
+msgstr ""
+
+#: includes/admin/class-admin.php:59
+msgid "Default keyword"
+msgstr ""
+
+#: includes/core/class-profile.php:50
+msgid "Select from Unsplash"
+msgstr ""
+
+#: includes/core/class-unsplash-ajax.php:34
+msgid "You need to be logged in to perform this action."
+msgstr ""
+
+#: includes/core/class-unsplash-ajax.php:40
+msgid "Invalid nonce."
+msgstr ""
+
+#: includes/core/um-unsplash-functions.php:39
+msgid "Photo by <a target=\"_blank\" class=\"author-url\" href=\"%s\">%s</a> on <a target=\"_blank\" href=\"%s\">Unsplash</a>"
+msgstr ""
+
+#: templates/modal.php:5
+msgid "Search or choose cover photo"
+msgstr ""
+
+#: templates/modal.php:12
+msgid "Search image"
+msgstr ""
+
+#: templates/modal.php:14
+#: assets/js/um-unsplash.js:3
+msgid "No result was found."
+msgstr ""
+
+#: templates/modal.php:37
+msgid "View"
+msgstr ""
+
+#: templates/modal.php:40
+msgid "Apply"
+msgstr ""
+
+#: templates/modal.php:43
+msgid "Cancel"
+msgstr ""
+
+#: um-unsplash.php:44
+#: um-unsplash.php:60
+msgid "The <strong>%s</strong> extension requires the Ultimate Member plugin to be activated to work properly. You can download it <a href=\"https://wordpress.org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: um-unsplash.php:79
+msgid "The <strong>%s</strong> extension requires the license key to work properly."
+msgstr ""
+
+#: assets/js/um-unsplash.js:2
+msgid "Loading..."
+msgstr ""
+
+#: assets/js/um-unsplash.js:59
+#: assets/js/um-unsplash.js:204
+#: assets/js/um-unsplash.js:263
+msgid "Unexpected Error!"
+msgstr ""
+
+#: assets/js/um-unsplash.js:195
+#: assets/js/um-unsplash.js:256
+msgid "Load more"
+msgstr ""

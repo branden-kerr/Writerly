@@ -1,0 +1,95 @@
+.appearance_page_polite-theme .wrap,
+.appearance_page_polite-theme .polite-panel {
+	font-size: 16px;
+}
+.das-wrap{
+	margin: 20px 15px;
+	padding: 30px;
+	background:#fff;
+	box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.7);
+    -webkit-box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.7);
+    -moz-box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.7);
+    -ms-box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.7);
+    border-radius:8px;
+}
+.polite-panel {
+    padding: 30px 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+.polite-panel:last-child{
+	border-bottom: 0;
+}
+.polite-logo{
+	max-width: 200px;
+	margin:0;
+	display: inline-block;
+}
+.polite-logo img{
+	max-width: 100%;
+}
+.pull-right{
+	float: right;
+}
+.btn{
+	display: inline-block;
+    padding: .95rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    border:2px solid;
+}
+
+.btn-primary {
+    background: #619ebb;
+    color: #fff;
+    border-color: transparent;
+}
+.btn-secondary {
+    background: #fff;
+    color: #333;
+    border-color: #dedede;
+}
+.btn-primary:focus, 
+.btn-primary:hover {
+    background: #2390c3;
+    color: #fff;
+}
+.btn-success{
+	background: #46b450;
+    color: #fff;
+}
+.btn-secondary:focus, 
+.btn-secondary:hover {
+    background: #fff;
+    color: #d42929;
+}
+.btn-success:focus, 
+.btn-success:hover {
+    background: #389a41;
+    color: #fff;
+}
+.theme-title {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+h2{
+    color: #23282d;
+    font-size: 1.3em;
+    margin: 0.8em 0;
+}
+
+h3{
+    color: #23282d;
+    font-size: 0.8em;
+    margin: 0.8em 0;
+}
+.polite-panel p{
+    font-size: 18px;
+    margin-bottom: 2.5rem;
+    max-width: 70%;
+}
+
+

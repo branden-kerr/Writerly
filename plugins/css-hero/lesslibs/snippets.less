@@ -1,0 +1,899 @@
+
+// START
+// GROUP: Buttons
+// DESC: A classic 3d effect button with customisable color
+.btn-3d(@color:#4289dc){
+.btn-reset(); padding:.7vw 2vw; text-transform:uppercase; border:0 solid darken(@color,10%); background:@color; border-bottom-width:5px; border-radius:5px 5px 7px 7px; color:fade(contrast(@color),70%);
+}
+
+// START
+// GROUP: Buttons
+// DESC: Web 2.0 button style
+.btn-traditional(@color:#4289dc){
+.btn-reset(); @text:contrast(@color); @shadow:contrast(@text); background:@color; .gradient(to top,@color,darken(@color,10%)); text-shadow:0 1px 0 fade(@shadow,30%); border:1px solid darken(@color,15%); color:fade(@text,70%); padding:.5vw 2vw; border-radius:5px; box-shadow:inset 0 1px 0px fade(lighten(@color,30%),30%);
+}
+
+// START
+// GROUP: Buttons
+// DESC: A modern, gradient styled button, choose the starting color he will do the rest
+.btn-grad(@color:#4289dc){
+.btn-reset(); @c1:spin(@color,120); @c2:darken(@color,60%); @c3:contrast(darken(mix(@color,@c1),30%)); @c4:contrast(@c3); .gradient(45deg, @color 10%,@c1); box-shadow:0 20px 30px fade(@c2,30%); border-radius:5px; padding:1.5vw 3vw; color:@c3; text-shadow:0 1px 0px fade(@c4,20%); min-width:200px; &:hover{ box-shadow:0 10px 20px fade(@c2,30%); }
+}
+
+// START
+// GROUP: Buttons
+// DESC: A very simple pill button with hover effect
+.btn-pill(@color:#4289dc){
+.btn-reset(); background:transparent; border:2px solid @color; border-radius:150px; color:@color; padding: 5px 20px; &:hover{ background:fade(@color,20%); }
+}
+
+// START
+// GROUP: Buttons
+// DESC: Simple square button with fill on hover effect
+.rect-button(@color:black){
+.btn-reset(); text-transform:uppercase; border: 1px solid @color; padding: 1vw 2vw; color:@color; border-radius:2px; background:transparent; .transition(); &:hover{ background:@color; color:contrast(@color); }
+}
+
+// START
+// GROUP: Buttons
+// DESC: Helper
+.btn-reset(){
+&:before,&:after{display:none;}height:auto;text-align:center;text-decoration:none;font-style:normal;text-shadow:none;display:inline-block;font-size:14px;line-height:20px;border:none;font-weight:bold;&:active{position:relative;top:1px;}
+}
+
+
+// START
+// GROUP: Utils
+// DESC: Easily Apply gradients or background images to text elements. Use the background-image property to adjust the look :)
+.text_clipper(){
+-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-fill-color:transparent;background-image:linear-gradient(to right,red,blue);
+}
+
+// START
+// GROUP: Utils
+// DESC: Build background gradients in a breeze, supports direction, start and end color
+.gradient(@direction:to top left,@color1:#4289dc,@color2:#b6aeff){
+background-image: linear-gradient(@direction,@color1,@color2);
+}
+
+// START
+// GROUP: Utils
+// DESC: A simple flat list, should be applied on list items such as ULs and OLs
+.modernList(@color:#444){
+list-style:none; padding:0; margin:0; border:1px solid @color; border-radius:5px; margin-bottom:10px; > li{ list-style:none; .transition(); &:hover{ background:fade(@color,5%); } padding:10px; border-bottom:1px solid @color; &:last-of-type{ border:none; }}
+}
+
+// START
+// GROUP: Utils
+// DESC: Splits any content into columns
+.columns(@count:3,@gap:20px){
+column-count:@count;column-gap:@gap;
+}
+
+// START
+// GROUP: Utils
+// DESC: A modern card styled box, should be applied on containers
+.white-card(){
+background:white;padding:2vw;color:#333;border-radius:5px;box-shadow:0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);border:none;
+}
+
+// START
+// GROUP: Utils
+// DESC: using this snippet allows you to apply a transition effect to a given element, using it on links such as buttons and styling the Hover status of it will make the transition between the two statuses smoother when user will hover it.
+.transition(@timing:300ms){
+transition: all @timing ease;
+}
+
+// START
+// GROUP: Utils
+// DESC: This snippet will stick an element on the top of the page upon scroll.
+.sticker(@offset:0){
+	position:sticky;
+	top:@offset;
+}
+
+
+// START
+// GROUP: Shadows
+// DESC: Subtle drop shadow effect
+.drop-shadow-subtle(@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25){
+box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+
+// START
+// GROUP: Shadows
+// DESC: Flat, lighter shadow effect
+.drop-shadow-flat(@x: 0, @y: 0px, @blur: 30px, @spread: 0, @alpha: 0.5){
+box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+
+// START
+// GROUP: Shadows
+// DESC: Sets a small shadow inside the selected element
+.inner-shadow(@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25){
+box-shadow: inset @x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+
+
+// START
+// GROUP: Dividers
+// DESC: An arrow shaped section divider
+.divider-arrow(@color:#4289dc){
+position:relative; overflow:hidden;padding-bottom:50px; &:after, &:before{content:''; position:absolute;bottom:-400px;left:-50%;width:200%;height:400px;background:@color;transform:rotate(5deg);transform-origin:center top; } &:after{transform:rotate(-5deg);}
+}
+
+// START
+// GROUP: Dividers
+// DESC: A diagonal section divider
+.divider-diagonal(@color:#4289dc){
+position:relative; overflow:hidden; padding-bottom:150px; &:before{-webkit-backface-visibility: hidden;box-shadow: inset 0 0 30px fade(black,20%);content:'';width:100%;height:50px;position:absolute;bottom:-300px;left:-50%;width:200%;height:400px;background:@color;transform:rotate(5deg);transform-origin:center top;}
+}
+
+// START
+// GROUP: Dividers
+// DESC: Medium style 3 dots divider
+.divider-3-dots(@color:#4289dc){
+position:relative; padding-bottom:50px;&:before{display:block;position:absolute;content:'';bottom: 20px;width: 10px;height: 10px;border-radius: 50%;left: 50%;transform: translateX(-50%);background: @color;box-shadow: 20px 0 @color, -20px 0 @color;}
+}
+
+// START
+// GROUP: Dividers
+// DESC: A rounded section divider
+.divider-rounded(@color:#4289dc){
+overflow:hidden; position:relative; padding-bottom:100px; &:after{content:'';position:absolute;bottom:-30px;left:-5%;width:110%;height:130px;background:@color;border-radius:50% 50% 0 0;-webkit-backface-visibility: hidden;box-shadow: inset 0 0 30px fade(black,20%);}
+}
+
+// START
+// GROUP: Dividers
+// DESC: A spiked divider, @color should be the color of the following section
+.divider-spike(@color:#4289dc,@height:80px){
+padding-bottom:@height;position:relative;&:before,&:after{content:'';position:absolute;bottom:0;width:51%;left:0;height:@height;background:@color;border-radius:0 @height*1.5 0 0;}&:after{left:auto;right:0;border-radius:@height*1.5 0 0 ;}
+}
+
+// START
+// GROUP: Dividers
+// DESC: A right oriented curved divider
+.divider-curve-right(@color:#4289dc,@height:150px){
+overflow:hidden;position:relative;padding-bottom:@height;&:after{content:'';position:absolute;bottom:0;left:-10%;width:120%;height:@height/1.5;background:@color;border-top-right-radius:1500%}
+}
+
+// START
+// GROUP: Dividers
+// DESC: A left oriented curved divider
+.divider-curve-left(@color:#4289dc,@height:150px){
+overflow:hidden;position:relative;padding-bottom:@height;&:after{content:'';position:absolute;bottom:0;left:-10%;width:120%;height:@height/1.5;background:@color;border-top-left-radius:1500%}
+}
+
+// START
+// GROUP: Dividers
+// DESC: Wave style divider
+.divider-fluid(@color:#4289dc,@height:90px,@scale:0.8){
+padding-bottom:@height*1.1; border-bottom:1px solid @color; position:relative; overflow:hidden; &:after, &:before{ content:''; background:@color; position:absolute; transform: scaleY(@scale); transform-origin:bottom; bottom:-1px; left:0%; width:100%; height:@height; mask:url(//cdn.csshero.org/svg/waves-00.svg) -20% bottom; -webkit-mask:url(//cdn.csshero.org/svg/waves-00.svg) -20% bottom; mask-size:auto 100%; -webkit-mask-size:auto 100%; mask-repeat:repeat-x; -webkit-mask-repeat:repeat-x; z-index:5; } &:after{ height:@height*1.3; transform: scaleY(@scale*1.5); left:-20%; width:140%; opacity:.3; z-index:4; } 
+}
+
+// START
+// GROUP: Dividers
+// DESC: Suuuuperwave
+.divider-wave-1(@color:#4289dc,@scale:0.5){
+z-index: 1; position: relative; overflow: hidden; &:before,&:after{ content: ''; background: @color; position: absolute; transform-origin: bottom; bottom: -1px; left: 0%; width: 100%; height: 700px; mask: url(//cdn.csshero.org/svg/waves-01.svg) bottom right; -webkit-mask: url(//cdn.csshero.org/svg/waves-01.svg) bottom right; -webkit-mask-size: 100% , 100%; -webkit-mask-size: 100% , 100%; mask-repeat: no-repeat; -webkit-mask-repeat: no-repeat; z-index: -1; transform: scaleY(@scale); } &:after{ left: -2%; transform: scaleY(@scale*1.2); opacity: .5; width:104%; } 
+}
+
+// START
+// GROUP: Dividers
+// DESC: Suuuuperwave 2
+.divider-wave-2(@color:#4289dc,@scale:0.5){
+z-index: 1; position: relative; overflow: hidden; &:before{ content: ''; background: @color; position: absolute; transform-origin: bottom; bottom: -1px; left: -1%; width: 102%; height: 300px; mask: url(//cdn.csshero.org/svg/waves-02.svg) bottom right; -webkit-mask: url(//cdn.csshero.org/svg/waves-02.svg) bottom right; -webkit-mask-size: 100% , 100%; -webkit-mask-size: 100% , 100%; mask-repeat: no-repeat; -webkit-mask-repeat: no-repeat; z-index: -1; transform: scaleY(@scale); } 
+}
+
+
+// START
+// GROUP: Backgrounds
+// DESC: A cool striped background effect
+.striped-bg-effect(){
+position:relative; z-index:0; overflow:hidden; &:after, &:before{ pointer-events:none; content:''; position:absolute; top:10%; left:0; height:50%; -webkit-backface-visibility:hidden; backface-visibility:hidden; transform:skew(0,-15deg); width:70%; transform-origin:top right; background-color:white; mix-blend-mode:overlay; opacity:.3; .gradient(to right,white,black); z-index:-1; } &:after{ left:30%; height:100%; }
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: Apply on elements with background-image property set to create duo-tone styles. For optimal results @c1 shall be lighter than @c2.
+.duotonizer(@c1:#ff3300,@c2:blue){
+position:relative; overflow:hidden; z-index:0; &:after, &:before{ pointer-events:none; content:''; position:absolute; top:0; left:0; height:100%; width:100%; background-color:@c1; mix-blend-mode:darken; display:block; z-index:-1; } &:after{ mix-blend-mode:lighten; background-color:@c2; }
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.colorscroller(@c1:red,@c2:blue){
+background-color:@c1; background-image:linear-gradient(to top,@c1,@c2); background-attachment:fixed; 
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-geometric-1(@color:#4389dc){
+background-image:url(//i.imgur.com/XTHJuL1.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-geometric-2(@color:#4389dc){
+background-image:url(//i.imgur.com/xiz4ORU.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-geometric-3(@color:#4389dc){
+background-image:url(//i.imgur.com/mDpwxm0.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-geometric-4(@color:#4389dc){
+background-image:url(//i.imgur.com/lwy6shD.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-geometric-5(@color:#4389dc){
+background-image:url(//i.imgur.com/bByGF3b.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-geometric-6(@color:#4389dc){
+background-image:url(//i.imgur.com/AY20rH6.jpg);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-geometric-7(@color:#4389dc){
+background-image:url(//i.imgur.com/hr3TBUI.jpg);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-geometric-8(@color:#4389dc){
+background-image:url(//i.imgur.com/hw9Esog.jpg);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-artistic-1(@color:#4389dc){
+background-image:url(//i.imgur.com/zkdl6q0.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-artistic-2(@color:#4389dc){
+background-image:url(//i.imgur.com/dIb8Kn2.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-artistic-3(@color:#4389dc){
+background-image:url(//i.imgur.com/nxejlJ3.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-artistic-4(@color:#4389dc){
+background-image:url(//i.imgur.com/mojigtK.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-artistic-5(@color:#4389dc){
+background-image:url(//i.imgur.com/KxQHZrU.jpg);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-artistic-6(@color:#4389dc){
+background-image:url(//i.imgur.com/VOnPghD.gif);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-artistic-7(@color:#4389dc){
+background-image:url(//i.imgur.com/O9GB9AT.jpg);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-artistic-8(@color:#4389dc){
+background-image:url(//i.imgur.com/VRPWNhm.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-artistic-9(@color:#4389dc){
+background-image:url(//i.imgur.com/TIQaMuA.jpg);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-artistic-10(@color:#4389dc){
+background-image:url(//i.imgur.com/bTdRcUq.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-artistic-11(@color:#4389dc){
+background-image:url(//i.imgur.com/VeAOCJ8.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-icons-1(@color:#4389dc){
+background-image:url(//i.imgur.com/w50C0y0.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-icons-2(@color:#4389dc){
+background-image:url(//i.imgur.com/kxB8uX6.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-icons-3(@color:#4389dc){
+background-image:url(//i.imgur.com/J3b5IwD.jpg);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-icons-4(@color:#4389dc){
+background-image:url(//i.imgur.com/2kZBWJC.jpg);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-icons-5(@color:#4389dc){
+background-image:url(//i.imgur.com/V6YtVRM.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-icons-6(@color:#4389dc){
+background-image:url(//i.imgur.com/kqjjSAJ.gif);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-3d-1(@color:#4389dc){
+background-image:url(//i.imgur.com/Bsn619g.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-3d-2(@color:#4389dc){
+background-image:url(//i.imgur.com/BaECdJ3.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-3d-3(@color:#4389dc){
+background-image:url(//i.imgur.com/yjG29fI.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-3d-4(@color:#4389dc){
+background-image:url(//i.imgur.com/VIRGH7Y.gif);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-3d-5(@color:#4389dc){
+background-image:url(//i.imgur.com/stoKKOR.jpg);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-3d-6(@color:#4389dc){
+background-image:url(//i.imgur.com/YR1lAzZ.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-3d-7(@color:#4389dc){
+background-image:url(//i.imgur.com/IsnEDMG.png);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: 
+.bg-3d-8(@color:#4389dc){
+background-image:url(//i.imgur.com/PT620Cn.jpg);background-color:@color;background-blend-mode:overlay;background-position:center;background-repeat:repeat;background-size:auto;
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: Hover grow effect.
+.hvr-grow(){
+display: inline-block; vertical-align: middle; transform: translateZ(0); backface-visibility: hidden; transition-duration: 0.3s; box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-property: transform; &:active, &:focus, &:hover{ transform: scale(1.1); }
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: Hover shrink effect.
+.hvr-shrink(){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: transform; &:active, &:focus, &:hover{ transform: scale(0.9); }
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: Hover pulse effect.
+.hvr-pulse(){
+@keyframes hvr-pulse{ 25% { transform: scale(1.1); } 75% { transform: scale(0.9); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); &:focus, &:active, &:hover{ animation-name: hvr-pulse; animation-duration: 1s; animation-timing-function: linear; animation-iteration-count: infinite; } 
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: Hover pulse-grow effect.
+.hvr-pulse-grow(){
+@keyframes hvr-pulse-grow{ to { transform: scale(1.1); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active{ animation-name: hvr-pulse-grow; animation-duration: 0.3s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: alternate; }
+}
+
+// START
+// GROUP: Backgrounds
+// DESC: Hover pulse-shrink effect.
+.hvr-pulse-shrink(){
+@keyframes hvr-pulse-shrink{ to { transform: scale(0.9); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active{ animation-name: hvr-pulse-shrink; animation-duration: 0.3s; animation-timing-function: linear; animation-iteration-count: infinite; animation-direction: alternate; }
+}
+
+
+// START
+// GROUP: Icon Sets
+// DESC: The popular Font Awesome icon set.
+.icon-fa(@icon:heart,@position:top-center,@size:24px,@color:#eee,@bg:#4289dc,@border:0px,@border-color:#4289dc){
+@half-size:@size*.5; @space-size:@size*2; position:relative; &:before{ content:''; box-sizing:border-box; position:absolute; top:0; left:50%; background:@bg; width:@space-size; height:@space-size; margin-left:-@space-size*.5; border-radius:50%; border:@border solid @border-color; display:block; } &:after{ mask:url('https://cdn.rawgit.com/encharm/Font-Awesome-SVG-PNG/266b63d5/black/svg/@{icon}.svg'); -webkit-mask:url('https://cdn.rawgit.com/encharm/Font-Awesome-SVG-PNG/266b63d5/black/svg/@{icon}.svg'); -webkit-mask-size:100% 100%; mask-size:100% 100%; content:''; width:@size; height:@size; background:@color; position:absolute; top:@space-size*.5; left:50%; margin-top:-@half-size; margin-left:-@half-size; display:block; } & when(@position = top-center){ padding-top:@space-size*1.2; } & when(@position = left){ padding-left:@space-size*1.2; &:before{ left:0; top:50%; margin:-@space-size*.5 0; } &:after{ top:50%; left:@space-size*.5; margin:-@half-size; } } & when(@position = top-left){ padding-top:@space-size*1.2; &:before{ left:0; margin-left:inherit; margin-top:inherit; } &:after{ left:@space-size*.5; top:@space-size*.5; margin:-@half-size; } }
+}
+
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover push effect.
+.hvr-push(){
+@keyframes hvr-push{ 50% { transform: scale(0.8); } 100% { transform: scale(1); } } vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active{ animation-name: hvr-push; animation-duration: 0.3s; animation-timing-function: linear; animation-iteration-count: 1; }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover pop effect.
+.hvr-pop(){
+@keyframes hvr-pop{ 50% { transform: scale(1.2); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active{ animation-name: hvr-pop; animation-duration: 0.3s; animation-timing-function: linear; animation-iteration-count: 1; }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover bounce-in effect.
+.hvr-bounce-in(){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.5s; &:hover,&:focus,&:active{ transform: scale(1.2); transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover bounce-out effect.
+.hvr-bounce-out(){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.5s; &:hover,&:focus,&:active{ transform: scale(0.8); transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover rotate effect.
+.hvr-rotate(){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: transform; &:hover,&:focus,&:active { transform: rotate(4deg); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover grow-rotate effect.
+.hvr-grow-rotate(){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: transform; &:hover,&:focus,&:active{ transform: scale(1.1) rotate(4deg); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover float effect.
+.hvr-float(){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: transform; transition-timing-function: ease-out; &:hover,&:focus,&:active{ transform: translateY(-8px); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover sink effect.
+.hvr-sink(){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: transform; transition-timing-function: ease-out; &:hover,&:focus,&:active{ transform: translateY(8px); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover bob effect.
+.hvr-bob(){
+@keyframes hvr-bob{ 0% { transform: translateY(-8px); } 50% { transform: translateY(-4px); } 100% { transform: translateY(-8px); } } @keyframes hvr-bob-float { 100% { transform: translateY(-8px); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active{ animation-name: hvr-bob-float, hvr-bob; animation-duration: .3s, 1.5s; animation-delay: 0s, .3s; animation-timing-function: ease-out, ease-in-out; animation-iteration-count: 1, infinite; animation-fill-mode: forwards; animation-direction: normal, alternate; }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover hang effect.
+.hvr-hang(){
+@keyframes hvr-hang{ 0% { transform: translateY(8px); } 50% { transform: translateY(4px); } 100% { transform: translateY(8px); } } @keyframes hvr-hang-sink { 100% { transform: translateY(8px); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active{ animation-name: hvr-hang-sink, hvr-hang; animation-duration: .3s, 1.5s; animation-delay: 0s, .3s; animation-timing-function: ease-out, ease-in-out; animation-iteration-count: 1, infinite; animation-fill-mode: forwards; animation-direction: normal, alternate; }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover skew effect.
+.hvr-skew(){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: transform; &:hover,&:focus,&:active { transform: skew(-10deg); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover skew-forward effect.
+.hvr-skew-forward(){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: transform; transform-origin: 0 100%; &:hover,&:focus,&:active{ transform: skew(-10deg); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover skew-backward effect.
+.hvr-skew-backward(){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: transform; transform-origin: 0 100%; &:hover,&:focus,&:active{ transform: skew(10deg); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover wobble-vertical effect.
+.hvr-wobble-vertical(){
+@keyframes hvr-wobble-vertical{ 16.65% { transform: translateY(8px); } 33.3% { transform: translateY(-6px); } 49.95% { transform: translateY(4px); } 66.6% { transform: translateY(-2px); } 83.25% { transform: translateY(1px); } 100% { transform: translateY(0); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active{ animation-name: hvr-wobble-vertical; animation-duration: 1s; animation-timing-function: ease-in-out; animation-iteration-count: 1; }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover wobble-horizontal effect.
+.hvr-wobble-horizontal(){
+@keyframes hvr-wobble-horizontal{ 16.65% { transform: translateX(8px); } 33.3% { transform: translateX(-6px); } 49.95% { transform: translateX(4px); } 66.6% { transform: translateX(-2px); } 83.25% { transform: translateX(1px); } 100% { transform: translateX(0); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active{ animation-name: hvr-wobble-horizontal; animation-duration: 1s; animation-timing-function: ease-in-out; animation-iteration-count: 1; }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover wobble-to-bottom-right effect.
+.hvr-wobble-to-bottom-right(){
+@keyframes hvr-wobble-to-bottom-right{ 16.65% { transform: translate(8px, 8px); } 33.3% { transform: translate(-6px, -6px); } 49.95% { transform: translate(4px, 4px); } 66.6% { transform: translate(-2px, -2px); } 83.25% { transform: translate(1px, 1px); } 100% { transform: translate(0, 0); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active{ animation-name: hvr-wobble-to-bottom-right; animation-duration: 1s; animation-timing-function: ease-in-out; animation-iteration-count: 1; }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover wobble-to-top-right effect.
+.hvr-wobble-to-top-right(){
+@keyframes hvr-wobble-to-top-right{ 16.65% { transform: translate(8px, -8px); } 33.3% { transform: translate(-6px, 6px); } 49.95% { transform: translate(4px, -4px); } 66.6% { transform: translate(-2px, 2px); } 83.25% { transform: translate(1px, -1px); } 100% { transform: translate(0, 0); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active{ animation-name: hvr-wobble-to-top-right; animation-duration: 1s; animation-timing-function: ease-in-out; animation-iteration-count: 1; }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover wobble-top effect.
+.hvr-wobble-top(){
+@keyframes hvr-wobble-top{ 16.65% { transform: skew(-12deg); } 33.3% { transform: skew(10deg); } 49.95% { transform: skew(-6deg); } 66.6% { transform: skew(4deg); } 83.25% { transform: skew(-2deg); } 100% { transform: skew(0); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transform-origin: 0 100%; &:hover,&:focus,&:active { animation-name: hvr-wobble-top; animation-duration: 1s; animation-timing-function: ease-in-out; animation-iteration-count: 1; }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover wobble-bottom effect.
+.hvr-wobble-bottom(){
+@keyframes hvr-wobble-bottom{ 16.65% { transform: skew(-12deg); } 33.3% { transform: skew(10deg); } 49.95% { transform: skew(-6deg); } 66.6% { transform: skew(4deg); } 83.25% { transform: skew(-2deg); } 100% { transform: skew(0); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transform-origin: 100% 0; &:hover,&:focus,&:active{ animation-name: hvr-wobble-bottom; animation-duration: 1s; animation-timing-function: ease-in-out; animation-iteration-count: 1; }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover buzz effect.
+.hvr-buzz(){
+@keyframes hvr-buzz { 50% { transform: translateX(3px) rotate(2deg); } 100% { transform: translateX(-3px) rotate(-2deg); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active{ animation-name: hvr-buzz; animation-duration: 0.15s; animation-timing-function: linear; animation-iteration-count: infinite; }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover buzz-out effect.
+.hvr-buzz-out(){
+@keyframes hvr-buzz-out { 10% { transform: translateX(3px) rotate(2deg); } 20% { transform: translateX(-3px) rotate(-2deg); } 30% { transform: translateX(3px) rotate(2deg); } 40% { transform: translateX(-3px) rotate(-2deg); } 50% { transform: translateX(2px) rotate(1deg); } 60% { transform: translateX(-2px) rotate(-1deg); } 70% { transform: translateX(2px) rotate(1deg); } 80% { transform: translateX(-2px) rotate(-1deg); } 90% { transform: translateX(1px) rotate(0); } 100% { transform: translateX(-1px) rotate(0); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active { animation-name: hvr-buzz-out; animation-duration: 0.75s; animation-timing-function: linear; animation-iteration-count: 1; }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover forward effect.
+.hvr-forward(){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: transform; &:hover,&:focus,&:active{ transform: translateX(8px); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover backward effect.
+.hvr-backward(){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: transform; &:hover,&:focus,&:active { transform: translateX(-8px); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover fade effect.
+.hvr-fade(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); overflow: hidden; transition-duration: 0.3s; transition-property: color, background-color; &:hover,&:focus,&:active { background-color: @color; color:fade(contrast(@color),70%); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover back-pulse effect.
+.hvr-back-pulse(@color:#ff3300){
+@keyframes hvr-back-pulse { 50% { background-color: fade(@color,.75%); } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); overflow: hidden; transition-duration: 0.5s; transition-property: color, background-color; &:hover,&:focus,&:active { animation-name: hvr-back-pulse; animation-duration: 1s; animation-delay: 0.5s; animation-timing-function: linear; animation-iteration-count: infinite; background-color: @color; color:fade(contrast(@color),70%); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover sweep-to-right effect.
+.hvr-sweep-to-right(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; transition-property: color; transition-duration: 0.3s; &:before{ content:''; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: @color; transform: scaleX(0); transform-origin: 0 50%; transition-property: transform; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { color:fade(contrast(@color),70%); &:before{ transform: scaleX(1); } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover sweep-to-left effect.
+.hvr-sweep-to-left(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; transition-property: color; transition-duration: 0.3s; &:before{ content:''; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: @color; transform: scaleX(0); transform-origin: 100% 50%; transition-property: transform; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { color:fade(contrast(@color),70%); &:before{ transform: scaleX(1); } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover sweep-to-bottom effect.
+.hvr-sweep-to-bottom(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; transition-property: color; transition-duration: 0.3s; &:before{ content:''; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: @color; transform: scaleY(0); transform-origin: 50% 0; transition-property: transform; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { color:fade(contrast(@color),70%); &:before{ transform: scaleY(1); } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover sweep-to-top effect.
+.hvr-sweep-to-top(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; transition-property: color; transition-duration: 0.3s; &:before{ content:''; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: @color; transform: scaleY(0); transform-origin: 50% 100%; transition-property: transform; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { color:fade(contrast(@color),70%); &:before{ transform: scaleY(1); } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover bounce-to-right effect.
+.hvr-bounce-to-right(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; transition-property: color; transition-duration: 0.5s; &:before{ content:''; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: @color; transform: scaleX(0); transform-origin: 0 50%; transition-property: transform; transition-duration: 0.5s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { color:fade(contrast(@color),70%); &:before{ transform: scaleX(1); transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover bounce-to-left effect.
+.hvr-bounce-to-left(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; transition-property: color; transition-duration: 0.5s; &:before{ content:''; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: @color; transform: scaleX(0); transform-origin: 100% 50%; transition-property: transform; transition-duration: 0.5s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { color:fade(contrast(@color),70%); &:before{ transform: scaleX(1); transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover bounce-to-bottom effect.
+.hvr-bounce-to-bottom(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; transition-property: color; transition-duration: 0.5s; &:before{ content:''; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: @color; transform: scaleY(0); transform-origin: 50% 0; transition-property: transform; transition-duration: 0.5s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { color:fade(contrast(@color),70%); &:before{ transform: scaleY(1); transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover bounce-to-top effect.
+.hvr-bounce-to-top(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; transition-property: color; transition-duration: 0.5s; &:before{ content:''; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: @color; transform: scaleY(0); transform-origin: 50% 100%; transition-property: transform; transition-duration: 0.5s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { color:fade(contrast(@color),70%); &:before{ transform: scaleY(1); transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover radial-out effect.
+.hvr-radial-out(@color:#ff3300){
+display: inline-block; vertical-align: middle; overflow:hidden; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; transition-property: color; transition-duration: 0.5s; &:before{ content: ''; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: @color; border-radius: 100%; transform: scale(0); transition-property: transform; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { color:fade(contrast(@color),70%); &:before{ transform: scale(2); } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover radial-in effect.
+.hvr-radial-in(@color:#ff3300){
+display: inline-block; vertical-align: middle; overflow:hidden; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; transition-property: color; transition-duration: 0.5s; &:before{ content: ''; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: transparent; border-radius: 100%; transform: scale(1); transition-property: transform; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { color:fade(contrast(@color),70%); &:before{ transform: scale(0); background:@color; } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover rectangle-in effect.
+.hvr-rectangle-in(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; overflow:hidden; transition-property: color; transition-duration: 0.3s; &:before{ content: ''; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: transparent; transform: scale(1); transition-property: transform; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { color:fade(contrast(@color),70%); &:before{ transform: scale(0); background:@color; } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover rectangle-out effect.
+.hvr-rectangle-out(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; overflow:hidden; transition-property: color; transition-duration: 0.3s; &:before{ content: ''; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: transparent; transform: scale(0); transition-property: transform; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { color:fade(contrast(@color),70%); &:before{ transform: scale(1); background:@color; } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover border-fade effect.
+.hvr-border-fade(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: box-shadow; box-shadow: inset 0 0 0 4px transparent, 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active { box-shadow: inset 0 0 0 4px @color, 0 0 1px rgba(0, 0, 0, 0); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover trim effect.
+.hvr-trim(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; &:before{ content: ''; position: absolute; border: @color solid 4px; top: 4px; left: 4px; right: 4px; bottom: 4px; opacity: 0; transition-duration: 0.3s; transition-property: opacity; } &:hover,&:focus,&:active { &:before{opacity: 1} }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover ripple-out effect.
+.hvr-ripple-out(@color:#ff3300){
+@keyframes hvr-ripple-out { 100% { top: -12px; right: -12px; bottom: -12px; left: -12px; opacity: 0; } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; &:before { content: ''; position: absolute; border: @color solid 6px; top: 0; right: 0; bottom: 0; left: 0; animation-duration: 1s; } &:hover,&:focus,&:active { &:before{animation-name: hvr-ripple-out;} }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover ripple-in effect.
+.hvr-ripple-in(@color:#ff3300){
+@keyframes hvr-ripple-in { 100% { top: 0; right: 0; bottom: 0; left: 0; opacity: 1; } } display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; &:before { content: ''; position: absolute; border: @color solid 4px; top: -12px; right: -12px; bottom: -12px; left: -12px; opacity: 0; animation-duration: 1s; } &:hover,&:focus,&:active { &:before{animation-name: hvr-ripple-in;} }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover outline-out effect.
+.hvr-outline-out(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; &:before { content: ''; position: absolute; border: @color solid 4px; top: 0; right: 0; bottom: 0; left: 0; transition-duration: 0.3s; transition-property: top, right, bottom, left; } &:hover,&:focus,&:active { &:before{ top: -8px; right: -8px; bottom: -8px; left: -8px; } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover outline-in effect.
+.hvr-outline-in(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; &:before { content: ''; position: absolute; border: @color solid 4px; top: -16px; right: -16px; bottom: -16px; left: -16px; opacity:0; transition-duration: 0.3s; transition-property: top, right, bottom, left,opacity; } &:hover,&:focus,&:active { &:before{ top: -8px; right: -8px; bottom: -8px; left: -8px; opacity:1; } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover underline-from-left effect.
+.hvr-underline-from-left(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; overflow: hidden; &:before { content: ''; position: absolute; z-index: -1; left: 0; right: 100%; bottom: 0; background: @color; height: 4px; transition-property: right; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { &:before{ right:0; } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover underline-from-center effect.
+.hvr-underline-from-center(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; overflow: hidden; &:before { content: ''; position: absolute; z-index: -1; left: 51%; right: 51%; bottom: 0; background: @color; height: 4px; transition-property: left, right; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { &:before{ right:0; left:0; } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover underline-from-right effect.
+.hvr-underline-from-right(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; overflow: hidden; &:before { content: ''; position: absolute; z-index: -1; right:0; left: 100%; bottom: 0; background: @color; height: 4px; transition-property: left; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { &:before{ left:0; } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover reveal effect.
+.hvr-reveal(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; overflow: hidden; &:before { content: ''; position: absolute; z-index: -1; left: 0; right: 0; top: 0; bottom: 0; border-color: @color; border-style: solid; border-width: 0; transition-property: border-width; transition-duration: 0.1s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { &:before{ transform: translateY(0); border-width: 4px; } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover overline-from-left effect.
+.hvr-overline-from-left(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; overflow: hidden; &:before { content: ''; position: absolute; z-index: -1; left: 0; right: 100%; top: 0; background: @color; height: 4px; transition-property: right; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { &:before{ right:0; } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover overline-from-right effect.
+.hvr-overline-from-right(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; overflow: hidden; &:before { content: ''; position: absolute; z-index: -1; left: 100%; right: 0; top: 0; background: @color; height: 4px; transition-property: left; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { &:before{ left:0; } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover overline-from-center effect.
+.hvr-overline-from-center(@color:#ff3300){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; overflow: hidden; &:before { content: ''; position: absolute; z-index: -1; left: 51%; right: 51%; top: 0; background: @color; height: 4px; transition-property: left, right; transition-duration: 0.3s; transition-timing-function: ease-out; } &:hover,&:focus,&:active { &:before{ left:0; right:0; } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover glow effect.
+.hvr-glow(@color:black){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: box-shadow; &:hover,&:focus,&:active { box-shadow: 0 0 8px fade(@color,60%); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover shadow effect.
+.hvr-shadow(@color:black){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: box-shadow; &:hover,&:focus,&:active { box-shadow: 0 10px 10px -10px fade(@color,60%); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover grow-shadow effect.
+.hvr-grow-shadow(@color:black){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: box-shadow, transform; &:hover,&:focus,&:active { box-shadow: 0 10px 10px -10px fade(@color,60%); transform: scale(1.1); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover float-shadow effect.
+.hvr-float-shadow(@color:black){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; transition-duration: 0.3s; transition-property: transform; &:before{ pointer-events: none; position: absolute; z-index: -1; content: ''; top: 100%; left: 5%; height: 10px; width: 90%; opacity: 0; background: radial-gradient(ellipse at center, fade(@color,35%) 0%, rgba(0, 0, 0, 0) 80%); transition-duration: 0.3s; transition-property: transform, opacity; } &:hover,&:focus,&:active { transform: translateY(-5px); &:before{ opacity: 1; transform: translateY(5px); } }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover box-shadow-out effect.
+.hvr-box-shadow-out(@color:black){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: box-shadow; &:hover,&:focus,&:active { box-shadow: 2px 2px 2px fade(@color,60%); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover box-shadow-in effect.
+.hvr-box-shadow-in(@color:black){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); transition-duration: 0.3s; transition-property: box-shadow; box-shadow: inset 0 0 0 fade(@color,60%), 0 0 1px rgba(0, 0, 0, 0); &:hover,&:focus,&:active { box-shadow: inset 2px 2px 2px fade(@color,60%), 0 0 1px rgba(0, 0, 0, 0); }
+}
+
+// START
+// GROUP: Hover Effects
+// DESC: Hover box-shadow-radial effect.
+.hvr-box-shadow-radial(@color:black){
+display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; &:before,&:after{ pointer-events: none; position: absolute; content: ''; left: 0; width: 100%; box-sizing: border-box; background-repeat: no-repeat; height: 5px; opacity: 0; transition-duration: 0.3s; transition-property: opacity; } &:before{ bottom: 100%; background: radial-gradient(ellipse at 50% 150%, fade(@color,60%) 0%, rgba(0, 0, 0, 0) 80%); } &:after{ top: 100%; background: radial-gradient(ellipse at 50% -50%, fade(@color,60%) 0%, rgba(0, 0, 0, 0) 80%); } &:hover,&:focus,&:active { &:before,&:after{opacity:1;} }
+}
+
+// START
+// GROUP: Utils
+// DESC: The Desktop Only Snippet
+._d(@p,@v,@w:1025px){
+	@media screen and (min-width:@w){
+		@{p}: @v;
+	}
+}
+
+// START
+// GROUP: Utils
+// DESC: The RFS Snippet
+.__rfs(@size:90){
+	.rfs(@size);
+	line-height:1.5;
+}

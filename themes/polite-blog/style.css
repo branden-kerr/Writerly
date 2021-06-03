@@ -1,0 +1,89 @@
+/*
+Theme Name: Polite Blog
+Theme URI: https://www.templatesell.com/item/polite-blog/
+Author: templatesell
+Author URI: https://www.templatesell.com/
+Description: A perfect theme for blog and magazine site. With masonry layout and multiple blog page layout, this theme is the awesome and minimal theme. It is a child theme of Polite. This theme has search option, off-canvas sidebar, multiple sidebar options, footer options, featured slider, promo boxed, footer widgets and many more. Besides that, this theme comes with added custom widgets for author information, featured posts, social icons, etc. It comes with primary color option to change the whole site color with a single click. More Details: https://www.templatesell.com/item/polite-blog/
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: polite-blog
+Template: polite
+Requires PHP: 5.2
+Tested up to: 5.7
+Tags: grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, footer-widgets, custom-colors, custom-header, editor-style, rtl-language-support, theme-options, blog, news
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Polite Blog is free WordPress theme by, Template Sell and child theme of Polite.
+Polite Blog is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+html{
+    font-size: 100%!important;
+}
+
+body,
+.canvi-content{
+	background: #fafafa!important;
+}
+.main-header .logo h1{
+	text-transform: uppercase;
+}
+.posts-container{
+	padding-top: 30px;
+}
+.slide-wrap{
+	background: #ffffff;
+}
+.post-wrap{
+	margin-bottom: 30px;
+	box-shadow: 0 1px 5px rgba(0, 0, 1, 0.05);
+}
+.left-image{
+	padding:0;
+}
+.left-image .post-media{
+	padding:0;
+	vertical-align: top;
+}
+.left-image .post-content{
+	padding:30px;
+}
+
+
+.sidebar-3 .widget {
+    margin: 0 0 30px 0;
+    background: #fff;
+    border:none;
+}
+
+.sidebar-3 .widget-title {
+    position: relative;
+    padding: 0;
+    border-bottom: none;
+    text-align: left;
+}
+.sidebar-3 .widget-title:after {
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background: #111;
+    top: 8px;
+    content: "";
+    margin-left: 10px;
+    left: auto;
+}
+.post-wrap.left-image.has-content{
+    display: inline-grid;
+}
+.post-wrap.left-image.has-content .post-media{
+    max-width: 100%;
+    display: block;
+}
+.comment-form{
+    padding: 15px;
+}

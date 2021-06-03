@@ -1,0 +1,68 @@
+.customize-control-checkbox label{
+    font-weight: 600;
+}
+.customize-control-checkbox input[type=checkbox] {
+    width: 35px;
+    height: 15px;
+    background: grey;
+    border-radius: 100px;
+    position: relative;
+    border: none;
+    min-width: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.customize-control-checkbox input[type=checkbox]:checked:before{
+    display: none;
+}
+.customize-control-checkbox input[type=checkbox]:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+.customize-control-checkbox input:checked{
+    background: #00a0d2;
+}
+.customize-control-checkbox input:checked:after {
+    left: calc(100% - 0px);
+    transform: translateX(-100%);
+}
+.customize-control-checkbox input:active:after {
+    width: 15px;
+}
+
+
+/*Sidebar Style*/
+#customize-control-polite_options-polite-sidebar-blog-page label,
+#customize-control-polite_options-polite-sidebar-single-page label {
+    position: relative;
+    float: left;
+    max-width: 71px;
+    margin-right: 15px;
+}
+#customize-control-polite_options-polite-sidebar-blog-page label input[type=radio],
+#customize-control-polite_options-polite-sidebar-single-page label input[type=radio]{
+    position: absolute;
+    left: -4px;
+    top: 2px;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    width: 73px;
+    height: 69px;
+}
+
+#customize-control-polite_options-polite-sidebar-blog-page label input[type=radio]:checked::before,
+#customize-control-polite_options-polite-sidebar-single-page label input[type=radio]:checked::before{
+    background: no-repeat;
+    border: 1px solid #eee;
+    height: 65px;
+    width: 73px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0px;
+}
